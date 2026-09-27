@@ -100,7 +100,7 @@ export function rankSearchCandidates(google, namuwiki, naver, now = new Date()) 
   const v = naverScores(naver?.items);
 
   const display = new Map();
-  for (const source of [google, namuwiki, naver]) {
+  for (const source of [google, namuwiki]) {
     for (const item of source?.items ?? []) {
       const keyword = String(item?.keyword ?? "").trim();
       const key = normalizeKeyword(keyword);
@@ -108,7 +108,8 @@ export function rankSearchCandidates(google, namuwiki, naver, now = new Date()) 
     }
   }
 
-  const keys = new Set([...g.keys(), ...n.keys(), ...v.keys()]);
+  // NAVER는 후보 발견원이 아니라 Google/나무위키 후보의 검증 신호로만 사용한다.
+  const keys = new Set([...g.keys(), ...n.keys()]);
   const rows = [];
 
   for (const key of keys) {
