@@ -1,9 +1,22 @@
-export const RRF_K = 10;
-export const RRF_WEIGHTS = Object.freeze({
-  naver: 0.45,
-  google: 0.40,
-  namuwiki: 0.15
+import { RANKING_CONFIG, getRankingMetadata } from "./ranking_config.js";
+import { weightedRrfStrategy } from "./strategies/weighted_rrf.js";
+
+const STRATEGIES = Object.freeze({
+  weighted_rrf: weightedRrfStrategy
 });
+
+// 기존 호출부와의 호환용 export. 실제 값은 ranking_config.js에서 관리한다.
+export const RRF_K = RANKING_CONFIG.params.k;
+export const RRF_WEIGHTS = Object.freeze(
+  Object.fromEntries(
+    Object.entries(RANKING_CONFIG.sources).map(([sourceId, sourceConfig]) => [
+      sourceConfig.output_key ?? sourceId,
+      sourceConfig.weight
+    ])
+  )
+);
+
+export { getRankingMetadata };
 
 export function normalizeKeyword(value) {
   return String(value ?? "")
@@ -18,23 +31,6 @@ function validRank(value) {
   return Number.isFinite(rank) && rank > 0 ? rank : null;
 }
 
-function weightedRrfContribution(weight, rank, k = RRF_K) {
-  const r = validRank(rank);
-  if (!r) return 0;
-  return weight / (k + r);
-}
-
-function maxWeightedRrfScore(k = RRF_K) {
-  const totalWeight = Object.values(RRF_WEIGHTS).reduce((sum, value) => sum + value, 0);
-  return totalWeight / (k + 1);
-}
-
-function normalizedRrfScore(rawScore, k = RRF_K) {
-  const maxScore = maxWeightedRrfScore(k);
-  if (maxScore <= 0) return 0;
-  return Math.max(0, Math.min(100, (rawScore / maxScore) * 100));
-}
-
 function sourceRankMap(source) {
   const result = new Map();
   for (const item of Array.isArray(source?.items) ? source.items : []) {
@@ -46,9 +42,23 @@ function sourceRankMap(source) {
   return result;
 }
 
-export function collectCandidateKeywords(google, namuwiki) {
+function sourceMap(sources) {
   const map = new Map();
-  for (const source of [google, namuwiki]) {
+  for (const source of sources) {
+    const sourceId = String(source?.source ?? "").trim();
+    if (sourceId) map.set(sourceId, source);
+  }
+  return map;
+}
+
+function candidateSources(allSources) {
+  return allSources.filter((source) => RANKING_CONFIG.sources?.[source?.source]?.role === "candidate");
+}
+
+export function collectCandidateKeywords(...sources) {
+  const map = new Map();
+
+  for (const source of candidateSources(sources)) {
     for (const item of source?.items ?? []) {
       const keyword = String(item?.keyword ?? "").trim();
       const key = normalizeKeyword(keyword);
@@ -56,68 +66,40 @@ export function collectCandidateKeywords(google, namuwiki) {
       map.set(key, keyword);
     }
   }
-  return [...map.values()].slice(0, 20);
+
+  return [...map.values()].slice(0, RANKING_CONFIG.candidate_limit);
 }
 
-export function rankSearchCandidates(google, namuwiki, naver) {
-  const googleRanks = sourceRankMap(google);
-  const namuRanks = sourceRankMap(namuwiki);
-  const naverRanks = sourceRankMap(naver);
+export function rankSearchCandidates(...sources) {
+  const bySource = sourceMap(sources);
+  const rankMaps = new Map();
 
-  const display = new Map();
-  for (const source of [google, namuwiki]) {
+  for (const sourceId of Object.keys(RANKING_CONFIG.sources)) {
+    rankMaps.set(sourceId, sourceRankMap(bySource.get(sourceId)));
+  }
+
+  const displayKeywords = new Map();
+  const candidateKeys = new Set();
+
+  for (const source of candidateSources(sources)) {
     for (const item of source?.items ?? []) {
       const keyword = String(item?.keyword ?? "").trim();
       const key = normalizeKeyword(keyword);
-      if (key && !display.has(key)) display.set(key, keyword);
+      if (!key) continue;
+      candidateKeys.add(key);
+      if (!displayKeywords.has(key)) displayKeywords.set(key, keyword);
     }
   }
 
-  // NAVER는 후보 발견원이 아니다. Google/나무위키에서 발견된 후보만 최종 순위에 참여한다.
-  const keys = new Set([...googleRanks.keys(), ...namuRanks.keys()]);
-  const rows = [];
-
-  for (const key of keys) {
-    const g = googleRanks.get(key) ?? null;
-    const n = naverRanks.get(key) ?? null;
-    const w = namuRanks.get(key) ?? null;
-
-    const googleContribution = weightedRrfContribution(RRF_WEIGHTS.google, g?.rank);
-    const naverContribution = weightedRrfContribution(RRF_WEIGHTS.naver, n?.rank);
-    const namuContribution = weightedRrfContribution(RRF_WEIGHTS.namuwiki, w?.rank);
-    const rawScore = googleContribution + naverContribution + namuContribution;
-    const score = normalizedRrfScore(rawScore);
-
-    rows.push({
-      keyword: display.get(key) ?? key,
-      score: Number(score.toFixed(2)),
-      rrf_score: Number(rawScore.toFixed(8)),
-      source_count: [g, n, w].filter(Boolean).length,
-      ranks: {
-        google: g?.rank ?? null,
-        naver: n?.rank ?? null,
-        namuwiki: w?.rank ?? null
-      },
-      contributions: {
-        google: Number(googleContribution.toFixed(8)),
-        naver: Number(naverContribution.toFixed(8)),
-        namuwiki: Number(namuContribution.toFixed(8))
-      },
-      details: {
-        google: g?.item ?? null,
-        naver: n?.item ?? null,
-        namuwiki: w?.item ?? null
-      }
-    });
+  const strategy = STRATEGIES[RANKING_CONFIG.method];
+  if (!strategy) {
+    throw new Error(`Unknown ranking strategy: ${RANKING_CONFIG.method}`);
   }
 
-  rows.sort((a, b) =>
-    b.rrf_score - a.rrf_score ||
-    b.source_count - a.source_count ||
-    (a.ranks.naver ?? Number.MAX_SAFE_INTEGER) - (b.ranks.naver ?? Number.MAX_SAFE_INTEGER) ||
-    (a.ranks.google ?? Number.MAX_SAFE_INTEGER) - (b.ranks.google ?? Number.MAX_SAFE_INTEGER) ||
-    a.keyword.localeCompare(b.keyword, "ko")
-  );
-
-  return rows;
+  return strategy({
+    candidateKeys,
+    displayKeywords,
+    rankMaps,
+    config: RANKING_CONFIG
+  });
 }
