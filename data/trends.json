@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "collector_version": "0.2.0",
+  "generated_at": null,
+  "categories": {
+    "search": {
+      "status": "not_run",
+      "ranking_status": "not_finalized",
+      "sources": {},
+      "candidates": [],
+      "search_top10": []
+    },
+    "community": {
+      "status": "not_implemented",
+      "sources": {},
+      "top10": []
+    },
+    "media": {
+      "status": "not_implemented",
+      "sources": {},
+      "top10": []
+    }
+  }
+}

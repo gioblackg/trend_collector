@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "collector_version": "0.2.0",
+  "http": {
+    "timeout_seconds": 15,
+    "retries": 2,
+    "user_agent": "TodayVideoTrendCollector/0.2"
+  },
+  "search": {
+    "google_trends": {
+      "enabled": true,
+      "geo": "KR",
+      "max_items": 30
+    },
+    "namuwiki": {
+      "enabled": true,
+      "url": "https://namu.wiki/",
+      "max_items": 10,
+      "minimum_valid_items": 5
+    }
+  },
+  "ranking": {
+    "enabled": false,
+    "note": "최종 검색 실시간 TOP 10 가중치는 아직 미확정"
+  }
+}
