@@ -8,5 +8,11 @@
   },
   "triggers": {
     "crons": ["*/10 * * * *"]
-  }
+  },
+  "kv_namespaces": [
+    {
+      "binding": "TREND_STATE",
+      "id": "735a39436f8b4128ac03581250c646d4"
+    }
+  ]
 }
