@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "today-video-trend-hub",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-27",
+  "observability": {
+    "enabled": true
+  },
+  "triggers": {
+    "crons": ["*/30 * * * *"]
+  }
+}
