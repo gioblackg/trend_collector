@@ -1,10 +1,9 @@
 const NAVER_API_URL = "https://naverapihub.apigw.ntruss.com/search-trend/v1/search";
 
-// NAVER 콘솔의 하드 한도는 사용자가 30,000회로 설정.
-// 프로그램 내부에서는 여유를 두고 29,000회에서 먼저 차단한다.
 export const NAVER_CONSOLE_MONTHLY_CAP = 30000;
 export const NAVER_INTERNAL_MONTHLY_CAP = 29000;
 export const NAVER_MAX_CALLS_PER_REFRESH = 5;
+const NAVER_ANCHOR = "네이버";
 
 function monthId(date = new Date()) {
   return date.toISOString().slice(0, 7);
@@ -26,6 +25,19 @@ function emptySnapshot(status, error = null) {
 
 function isoDate(date) {
   return date.toISOString().slice(0, 10);
+}
+
+function chunks(values, size) {
+  const out = [];
+  for (let i = 0; i < values.length; i += size) out.push(values.slice(i, i + size));
+  return out;
+}
+
+function latestRatio(result) {
+  const rows = Array.isArray(result?.data) ? result.data : [];
+  if (!rows.length) return 0;
+  const latest = rows[rows.length - 1];
+  return Math.max(0, Number(latest?.ratio) || 0);
 }
 
 export function getNaverConfigStatus(env) {
@@ -70,19 +82,11 @@ export async function readNaverSnapshot(env) {
   const clientId = env?.NAVER_CLIENT_ID;
   const clientSecret = env?.NAVER_CLIENT_SECRET;
 
-  if (!clientId || !clientSecret) {
-    return emptySnapshot("not_configured");
-  }
-
-  if (!kv) {
-    return emptySnapshot("state_not_configured", "TREND_STATE KV binding required");
-  }
+  if (!clientId || !clientSecret) return emptySnapshot("not_configured");
+  if (!kv) return emptySnapshot("state_not_configured", "TREND_STATE KV binding required");
 
   const cached = await kv.get("naver:latest", "json");
-  if (!cached) {
-    return emptySnapshot("cache_empty");
-  }
-
+  if (!cached) return emptySnapshot("cache_empty");
   return cached;
 }
 
@@ -93,20 +97,13 @@ export async function storeNaverSnapshot(env, snapshot) {
   return true;
 }
 
-// 실제 NAVER 호출은 반드시 이 함수를 통해서만 수행한다.
-// 호출 전에 내부 월간 카운트를 먼저 1 증가시켜 실패/재시도 상황에서도 보수적으로 계산한다.
 export async function callNaverSearchTrend(env, requestBody) {
   const clientId = env?.NAVER_CLIENT_ID;
   const clientSecret = env?.NAVER_CLIENT_SECRET;
   const kv = env?.TREND_STATE;
 
-  if (!clientId || !clientSecret) {
-    return { ok: false, status: "not_configured", http_status: null, data: null };
-  }
-
-  if (!kv) {
-    return { ok: false, status: "state_not_configured", http_status: null, data: null };
-  }
+  if (!clientId || !clientSecret) return { ok: false, status: "not_configured", http_status: null, data: null };
+  if (!kv) return { ok: false, status: "state_not_configured", http_status: null, data: null };
 
   const usage = await getNaverUsage(env);
   if (usage.used >= NAVER_INTERNAL_MONTHLY_CAP) {
@@ -129,11 +126,8 @@ export async function callNaverSearchTrend(env, requestBody) {
 
     const text = await response.text();
     let data = null;
-    try {
-      data = text ? JSON.parse(text) : null;
-    } catch {
-      data = { raw: text.slice(0, 2000) };
-    }
+    try { data = text ? JSON.parse(text) : null; }
+    catch { data = { raw: text.slice(0, 2000) }; }
 
     return {
       ok: response.ok,
@@ -166,13 +160,98 @@ export async function callNaverSearchTrend(env, requestBody) {
   }
 }
 
-// 연결 확인용 단발 테스트.
-// 성공 결과만 캐시한다. not_configured 같은 실패 결과는 캐시하지 않아 설정 수정 후 재시험할 수 있다.
+// Google + 나무위키가 만든 후보를 NAVER 검색어트렌드로 검증한다.
+// 한 요청은 공통 기준어 1개 + 후보 4개로 구성하여 최대 20개 후보를 5회 이내에 처리한다.
+export async function refreshNaverCandidateScores(env, candidateKeywords) {
+  const candidates = [...new Set((candidateKeywords ?? []).map((v) => String(v ?? "").trim()).filter(Boolean))]
+    .filter((v) => v !== NAVER_ANCHOR)
+    .slice(0, 20);
+
+  if (!candidates.length) {
+    const snapshot = { ...emptySnapshot("no_candidates"), generated_at: new Date().toISOString() };
+    await storeNaverSnapshot(env, snapshot);
+    return snapshot;
+  }
+
+  const end = new Date(Date.now() - 24 * 60 * 60 * 1000);
+  const start = new Date(end.getTime() - 6 * 24 * 60 * 60 * 1000);
+  const groups = chunks(candidates, 4).slice(0, NAVER_MAX_CALLS_PER_REFRESH);
+  const strengths = [];
+  let lastUsage = null;
+
+  for (const group of groups) {
+    const requestBody = {
+      startDate: isoDate(start),
+      endDate: isoDate(end),
+      timeUnit: "date",
+      keywordGroups: [
+        { groupName: "__anchor__", keywords: [NAVER_ANCHOR] },
+        ...group.map((keyword, index) => ({ groupName: `k${index + 1}`, keywords: [keyword] }))
+      ]
+    };
+
+    const response = await callNaverSearchTrend(env, requestBody);
+    lastUsage = response.usage ?? lastUsage;
+    if (!response.ok) {
+      const snapshot = {
+        ...emptySnapshot(response.status, response.data ?? response.error ?? null),
+        generated_at: new Date().toISOString(),
+        candidate_count: candidates.length,
+        calls_planned: groups.length,
+        usage: lastUsage
+      };
+      await storeNaverSnapshot(env, snapshot);
+      return snapshot;
+    }
+
+    const results = Array.isArray(response.data?.results) ? response.data.results : [];
+    const anchor = results.find((r) => r?.title === "__anchor__");
+    const anchorRatio = latestRatio(anchor);
+
+    group.forEach((keyword, index) => {
+      const result = results.find((r) => r?.title === `k${index + 1}`);
+      const ratio = latestRatio(result);
+      const relativeStrength = anchorRatio > 0 ? ratio / anchorRatio : ratio;
+      strengths.push({
+        keyword,
+        relative_strength: relativeStrength,
+        raw_ratio: ratio,
+        anchor_ratio: anchorRatio,
+        period: isoDate(end)
+      });
+    });
+  }
+
+  const maxStrength = Math.max(0, ...strengths.map((item) => item.relative_strength));
+  const items = strengths
+    .map((item) => ({
+      ...item,
+      score: maxStrength > 0 ? (item.relative_strength / maxStrength) * 100 : 0
+    }))
+    .sort((a, b) => b.score - a.score)
+    .map((item, index) => ({ ...item, rank: index + 1, score: Number(item.score.toFixed(2)) }));
+
+  const snapshot = {
+    source: "naver",
+    status: "ok",
+    collection_method: "scheduled_cache",
+    generated_at: new Date().toISOString(),
+    period: { start: isoDate(start), end: isoDate(end), timeUnit: "date" },
+    anchor: NAVER_ANCHOR,
+    candidate_count: candidates.length,
+    calls_used: groups.length,
+    usage: lastUsage,
+    items,
+    error: null
+  };
+
+  await storeNaverSnapshot(env, snapshot);
+  return snapshot;
+}
+
 export async function testNaverConnection(env) {
   const kv = env?.TREND_STATE;
-  if (!kv) {
-    return { ok: false, status: "state_not_configured", config: getNaverConfigStatus(env) };
-  }
+  if (!kv) return { ok: false, status: "state_not_configured", config: getNaverConfigStatus(env) };
 
   const config = getNaverConfigStatus(env);
   if (!config.ready) {
@@ -182,14 +261,11 @@ export async function testNaverConnection(env) {
 
   const testKey = "naver:test:connection";
   const cached = await kv.get(testKey, "json");
-  if (cached?.finished && cached?.ok) {
-    return { ...cached, cached: true };
-  }
+  if (cached?.finished && cached?.ok) return { ...cached, cached: true };
 
   const now = new Date();
   const end = new Date(now.getTime() - 24 * 60 * 60 * 1000);
   const start = new Date(end.getTime() - 6 * 24 * 60 * 60 * 1000);
-
   const requestBody = {
     startDate: isoDate(start),
     endDate: isoDate(end),
@@ -219,16 +295,11 @@ export async function testNaverConnection(env) {
       : result.data ?? result.error ?? null
   };
 
-  if (result.ok) {
-    await kv.put(testKey, JSON.stringify(stored));
-  } else {
-    await kv.delete(testKey);
-  }
-
+  if (result.ok) await kv.put(testKey, JSON.stringify(stored));
+  else await kv.delete(testKey);
   return stored;
 }
 
-// 공개 페이지 요청에서는 NAVER를 직접 호출하지 않고 캐시만 읽는다.
 export async function fetchNaverTrends(env) {
   return readNaverSnapshot(env);
 }
