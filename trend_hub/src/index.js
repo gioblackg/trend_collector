@@ -5,7 +5,12 @@ import {
   testNaverConnection,
   refreshNaverCandidateScores
 } from "./search/naver.js";
-import { collectCandidateKeywords, rankSearchCandidates } from "./search/ranking.js";
+import {
+  collectCandidateKeywords,
+  rankSearchCandidates,
+  RRF_K,
+  RRF_WEIGHTS
+} from "./search/ranking.js";
 
 function commonHeaders() {
   return {
@@ -33,6 +38,20 @@ function html(body, status = 200) {
       "content-type": "text/html; charset=utf-8"
     }
   });
+}
+
+function scoringMetadata() {
+  return {
+    method: "weighted_rrf",
+    k: RRF_K,
+    weights: {
+      naver: RRF_WEIGHTS.naver,
+      google: RRF_WEIGHTS.google,
+      namuwiki: RRF_WEIGHTS.namuwiki
+    },
+    overlap_bonus: 0,
+    note: "Google/나무위키가 후보를 발견하고 NAVER는 후보 검증 순위로 참여"
+  };
 }
 
 function normalizeKeyword(value) {
@@ -165,8 +184,6 @@ async function resolveNamuSource(env, browserNamuItems = null) {
   const cached = await readCachedNamu(env);
   if (cached?.status === "ok" && Array.isArray(cached?.items) && cached.items.length) return cached;
 
-  // Cloudflare/GitHub 서버 직접 호출은 NamuWiki에서 403이므로 재시도하지 않는다.
-  // 브라우저가 받은 순위를 KV에 저장한 값만 예약 계산에서 사용한다.
   return emptyNamuSource();
 }
 
@@ -184,17 +201,12 @@ async function buildSearchPayload(env, browserNamuItems = null) {
   const namuReady = namuwiki?.status === "ok" && Array.isArray(namuwiki?.items) && namuwiki.items.length > 0;
 
   return {
-    schema_version: "1.1",
+    schema_version: "1.2",
     generated_at: new Date().toISOString(),
     category: "search",
     status: sources.some((s) => s.status === "ok") ? "partial_or_ok" : "error",
     ranking_status: naverReady && namuReady ? "finalized" : "partial",
-    scoring: {
-      google_weight: 0.4,
-      naver_weight: 0.4,
-      namuwiki_weight: 0.2,
-      google_namuwiki_overlap_bonus: 5
-    },
+    scoring: scoringMetadata(),
     sources: Object.fromEntries(sources.map((s) => [s.source, s])),
     candidates,
     ranked,
@@ -212,17 +224,12 @@ async function scheduledRefresh(env) {
   const namuReady = namuwiki?.status === "ok" && Array.isArray(namuwiki?.items) && namuwiki.items.length > 0;
 
   const snapshot = {
-    schema_version: "1.1",
+    schema_version: "1.2",
     generated_at: new Date().toISOString(),
     category: "search",
     status: naverReady && namuReady ? "ok" : "partial",
     ranking_status: naverReady && namuReady ? "finalized" : "partial",
-    scoring: {
-      google_weight: 0.4,
-      naver_weight: 0.4,
-      namuwiki_weight: 0.2,
-      google_namuwiki_overlap_bonus: 5
-    },
+    scoring: scoringMetadata(),
     sources: {
       [google.source]: google,
       [namuwiki.source]: namuwiki,
