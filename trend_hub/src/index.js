@@ -31,7 +31,11 @@ function html(body, status = 200) {
 }
 
 function normalizeKeyword(value) {
-  return String(value ?? "").trim().replace(/\s+/g, " ").toLowerCase();
+  return String(value ?? "")
+    .normalize("NFKC")
+    .trim()
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, "");
 }
 
 function mergeSearchSources(sources) {
