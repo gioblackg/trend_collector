@@ -1,0 +1,38 @@
+name: Update trend data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/10 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Collect trend data
+        run: python collector/run_collector.py
+
+      - name: Commit updated trend JSON
+        run: |
+          if git diff --quiet -- data/trends.json; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git config user.name "today-video-trend-bot"
+          git config user.email "today-video-trend-bot@users.noreply.github.com"
+          git add data/trends.json
+          git commit -m "chore: update trend data"
+          git push
