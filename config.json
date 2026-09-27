@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "collector_version": "0.2.0",
+  "collector_version": "0.2.1",
   "http": {
     "timeout_seconds": 15,
     "retries": 2,
-    "user_agent": "TodayVideoTrendCollector/0.2"
+    "user_agent": "TodayVideoTrendCollector/0.2.1"
   },
   "search": {
     "google_trends": {
@@ -14,7 +14,7 @@
     },
     "namuwiki": {
       "enabled": true,
-      "url": "https://namu.wiki/",
+      "url": "https://search.namu.wiki/api/ranking",
       "max_items": 10,
       "minimum_valid_items": 5
     }
