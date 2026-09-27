@@ -1,3 +1,10 @@
+export const RRF_K = 10;
+export const RRF_WEIGHTS = Object.freeze({
+  naver: 0.45,
+  google: 0.40,
+  namuwiki: 0.15
+});
+
 export function normalizeKeyword(value) {
   return String(value ?? "")
     .normalize("NFKC")
@@ -6,77 +13,35 @@ export function normalizeKeyword(value) {
     .replace(/[^\p{L}\p{N}]+/gu, "");
 }
 
-function clamp(value, min = 0, max = 100) {
-  return Math.min(max, Math.max(min, Number(value) || 0));
+function validRank(value) {
+  const rank = Number(value);
+  return Number.isFinite(rank) && rank > 0 ? rank : null;
 }
 
-function rankScore(rank) {
-  const r = Number(rank);
-  if (!Number.isFinite(r) || r <= 0) return 0;
-  return clamp(110 - r * 10);
+function weightedRrfContribution(weight, rank, k = RRF_K) {
+  const r = validRank(rank);
+  if (!r) return 0;
+  return weight / (k + r);
 }
 
-function googleFreshnessScore(publishedAt, now = new Date()) {
-  const published = new Date(publishedAt);
-  if (Number.isNaN(published.getTime())) return 50;
-  const ageHours = Math.max(0, (now.getTime() - published.getTime()) / 3600000);
-  return clamp(100 - (ageHours / 24) * 100);
+function maxWeightedRrfScore(k = RRF_K) {
+  const totalWeight = Object.values(RRF_WEIGHTS).reduce((sum, value) => sum + value, 0);
+  return totalWeight / (k + 1);
 }
 
-function googleScores(items, now = new Date()) {
-  const rows = Array.isArray(items) ? items : [];
-  const maxValue = Math.max(0, ...rows.map((item) => Number(item?.value) || 0));
-  const maxLog = maxValue > 0 ? Math.log1p(maxValue) : 0;
+function normalizedRrfScore(rawScore, k = RRF_K) {
+  const maxScore = maxWeightedRrfScore(k);
+  if (maxScore <= 0) return 0;
+  return Math.max(0, Math.min(100, (rawScore / maxScore) * 100));
+}
+
+function sourceRankMap(source) {
   const result = new Map();
-
-  for (const item of rows) {
+  for (const item of Array.isArray(source?.items) ? source.items : []) {
     const key = normalizeKeyword(item?.keyword);
-    if (!key) continue;
-
-    const value = Math.max(0, Number(item?.value) || 0);
-    const volume = maxLog > 0 ? (Math.log1p(value) / maxLog) * 100 : 0;
-    const freshness = googleFreshnessScore(item?.published_at, now);
-    const rank = rankScore(item?.rank);
-    const score = clamp(volume * 0.5 + freshness * 0.3 + rank * 0.2);
-
-    result.set(key, {
-      score,
-      volume_score: clamp(volume),
-      freshness_score: clamp(freshness),
-      rank_score: clamp(rank),
-      rank: item?.rank ?? null,
-      value: item?.value ?? null,
-      published_at: item?.published_at ?? null
-    });
-  }
-
-  return result;
-}
-
-function namuScores(items) {
-  const result = new Map();
-  for (const item of Array.isArray(items) ? items : []) {
-    const key = normalizeKeyword(item?.keyword);
-    if (!key) continue;
-    result.set(key, {
-      score: rankScore(item?.rank),
-      rank: item?.rank ?? null
-    });
-  }
-  return result;
-}
-
-function naverScores(items) {
-  const result = new Map();
-  for (const item of Array.isArray(items) ? items : []) {
-    const key = normalizeKeyword(item?.keyword);
-    if (!key) continue;
-    result.set(key, {
-      score: clamp(item?.score),
-      rank: item?.rank ?? null,
-      relative_strength: item?.relative_strength ?? null,
-      period: item?.period ?? null
-    });
+    const rank = validRank(item?.rank);
+    if (!key || !rank) continue;
+    result.set(key, { rank, item });
   }
   return result;
 }
@@ -94,10 +59,10 @@ export function collectCandidateKeywords(google, namuwiki) {
   return [...map.values()].slice(0, 20);
 }
 
-export function rankSearchCandidates(google, namuwiki, naver, now = new Date()) {
-  const g = googleScores(google?.items, now);
-  const n = namuScores(namuwiki?.items);
-  const v = naverScores(naver?.items);
+export function rankSearchCandidates(google, namuwiki, naver) {
+  const googleRanks = sourceRankMap(google);
+  const namuRanks = sourceRankMap(namuwiki);
+  const naverRanks = sourceRankMap(naver);
 
   const display = new Map();
   for (const source of [google, namuwiki]) {
@@ -108,39 +73,49 @@ export function rankSearchCandidates(google, namuwiki, naver, now = new Date()) 
     }
   }
 
-  // NAVER는 후보 발견원이 아니라 Google/나무위키 후보의 검증 신호로만 사용한다.
-  const keys = new Set([...g.keys(), ...n.keys()]);
+  // NAVER는 후보 발견원이 아니다. Google/나무위키에서 발견된 후보만 최종 순위에 참여한다.
+  const keys = new Set([...googleRanks.keys(), ...namuRanks.keys()]);
   const rows = [];
 
   for (const key of keys) {
-    const gs = g.get(key);
-    const ns = n.get(key);
-    const vs = v.get(key);
-    const overlapBonus = gs && ns ? 5 : 0;
-    const finalScore = clamp((gs?.score ?? 0) * 0.4 + (vs?.score ?? 0) * 0.4 + (ns?.score ?? 0) * 0.2 + overlapBonus);
+    const g = googleRanks.get(key) ?? null;
+    const n = naverRanks.get(key) ?? null;
+    const w = namuRanks.get(key) ?? null;
+
+    const googleContribution = weightedRrfContribution(RRF_WEIGHTS.google, g?.rank);
+    const naverContribution = weightedRrfContribution(RRF_WEIGHTS.naver, n?.rank);
+    const namuContribution = weightedRrfContribution(RRF_WEIGHTS.namuwiki, w?.rank);
+    const rawScore = googleContribution + naverContribution + namuContribution;
+    const score = normalizedRrfScore(rawScore);
 
     rows.push({
       keyword: display.get(key) ?? key,
-      score: Number(finalScore.toFixed(2)),
-      source_count: [gs, ns, vs].filter(Boolean).length,
-      overlap_bonus: overlapBonus,
-      scores: {
-        google: gs ? Number(gs.score.toFixed(2)) : 0,
-        naver: vs ? Number(vs.score.toFixed(2)) : 0,
-        namuwiki: ns ? Number(ns.score.toFixed(2)) : 0
+      score: Number(score.toFixed(2)),
+      rrf_score: Number(rawScore.toFixed(8)),
+      source_count: [g, n, w].filter(Boolean).length,
+      ranks: {
+        google: g?.rank ?? null,
+        naver: n?.rank ?? null,
+        namuwiki: w?.rank ?? null
+      },
+      contributions: {
+        google: Number(googleContribution.toFixed(8)),
+        naver: Number(naverContribution.toFixed(8)),
+        namuwiki: Number(namuContribution.toFixed(8))
       },
       details: {
-        google: gs ?? null,
-        naver: vs ?? null,
-        namuwiki: ns ?? null
+        google: g?.item ?? null,
+        naver: n?.item ?? null,
+        namuwiki: w?.item ?? null
       }
     });
   }
 
   rows.sort((a, b) =>
-    b.score - a.score ||
+    b.rrf_score - a.rrf_score ||
     b.source_count - a.source_count ||
-    b.scores.google - a.scores.google ||
+    (a.ranks.naver ?? Number.MAX_SAFE_INTEGER) - (b.ranks.naver ?? Number.MAX_SAFE_INTEGER) ||
+    (a.ranks.google ?? Number.MAX_SAFE_INTEGER) - (b.ranks.google ?? Number.MAX_SAFE_INTEGER) ||
     a.keyword.localeCompare(b.keyword, "ko")
   );
 
