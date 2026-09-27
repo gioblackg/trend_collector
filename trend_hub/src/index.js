@@ -8,8 +8,7 @@ import {
 import {
   collectCandidateKeywords,
   rankSearchCandidates,
-  RRF_K,
-  RRF_WEIGHTS
+  getRankingMetadata
 } from "./search/ranking.js";
 
 function commonHeaders() {
@@ -41,17 +40,7 @@ function html(body, status = 200) {
 }
 
 function scoringMetadata() {
-  return {
-    method: "weighted_rrf",
-    k: RRF_K,
-    weights: {
-      naver: RRF_WEIGHTS.naver,
-      google: RRF_WEIGHTS.google,
-      namuwiki: RRF_WEIGHTS.namuwiki
-    },
-    overlap_bonus: 0,
-    note: "Google/나무위키가 후보를 발견하고 NAVER는 후보 검증 순위로 참여"
-  };
+  return getRankingMetadata();
 }
 
 function normalizeKeyword(value) {
