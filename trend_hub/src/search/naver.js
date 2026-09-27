@@ -28,6 +28,15 @@ function isoDate(date) {
   return date.toISOString().slice(0, 10);
 }
 
+export function getNaverConfigStatus(env) {
+  return {
+    naver_client_id: Boolean(env?.NAVER_CLIENT_ID),
+    naver_client_secret: Boolean(env?.NAVER_CLIENT_SECRET),
+    trend_state: Boolean(env?.TREND_STATE),
+    ready: Boolean(env?.NAVER_CLIENT_ID && env?.NAVER_CLIENT_SECRET && env?.TREND_STATE)
+  };
+}
+
 export async function getNaverUsage(env) {
   const kv = env?.TREND_STATE;
   const month = monthId();
@@ -157,17 +166,23 @@ export async function callNaverSearchTrend(env, requestBody) {
   }
 }
 
-// 연결 확인용 단발 테스트. 최초 성공/실패 결과를 KV에 저장해 같은 URL을 다시 열어도
-// NAVER API 호출을 반복하지 않도록 한다.
+// 연결 확인용 단발 테스트.
+// 성공 결과만 캐시한다. not_configured 같은 실패 결과는 캐시하지 않아 설정 수정 후 재시험할 수 있다.
 export async function testNaverConnection(env) {
   const kv = env?.TREND_STATE;
   if (!kv) {
-    return { ok: false, status: "state_not_configured" };
+    return { ok: false, status: "state_not_configured", config: getNaverConfigStatus(env) };
+  }
+
+  const config = getNaverConfigStatus(env);
+  if (!config.ready) {
+    await kv.delete("naver:test:connection");
+    return { ok: false, status: "not_configured", config };
   }
 
   const testKey = "naver:test:connection";
   const cached = await kv.get(testKey, "json");
-  if (cached?.finished) {
+  if (cached?.finished && cached?.ok) {
     return { ...cached, cached: true };
   }
 
@@ -193,6 +208,7 @@ export async function testNaverConnection(env) {
     status: result.status,
     http_status: result.http_status,
     usage: result.usage ?? null,
+    config,
     response_summary: result.ok
       ? {
           startDate: result.data?.startDate ?? null,
@@ -203,7 +219,12 @@ export async function testNaverConnection(env) {
       : result.data ?? result.error ?? null
   };
 
-  await kv.put(testKey, JSON.stringify(stored));
+  if (result.ok) {
+    await kv.put(testKey, JSON.stringify(stored));
+  } else {
+    await kv.delete(testKey);
+  }
+
   return stored;
 }
 
