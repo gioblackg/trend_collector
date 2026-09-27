@@ -24,6 +24,10 @@ function emptySnapshot(status, error = null) {
   };
 }
 
+function isoDate(date) {
+  return date.toISOString().slice(0, 10);
+}
+
 export async function getNaverUsage(env) {
   const kv = env?.TREND_STATE;
   const month = monthId();
@@ -153,7 +157,57 @@ export async function callNaverSearchTrend(env, requestBody) {
   }
 }
 
-// 이전 코드와의 호환용. 공개 페이지 요청에서는 NAVER를 직접 호출하지 않고 캐시만 읽는다.
+// 연결 확인용 단발 테스트. 최초 성공/실패 결과를 KV에 저장해 같은 URL을 다시 열어도
+// NAVER API 호출을 반복하지 않도록 한다.
+export async function testNaverConnection(env) {
+  const kv = env?.TREND_STATE;
+  if (!kv) {
+    return { ok: false, status: "state_not_configured" };
+  }
+
+  const testKey = "naver:test:connection";
+  const cached = await kv.get(testKey, "json");
+  if (cached?.finished) {
+    return { ...cached, cached: true };
+  }
+
+  const now = new Date();
+  const end = new Date(now.getTime() - 24 * 60 * 60 * 1000);
+  const start = new Date(end.getTime() - 6 * 24 * 60 * 60 * 1000);
+
+  const requestBody = {
+    startDate: isoDate(start),
+    endDate: isoDate(end),
+    timeUnit: "date",
+    keywordGroups: [
+      { groupName: "네이버", keywords: ["네이버"] },
+      { groupName: "유튜브", keywords: ["유튜브"] }
+    ]
+  };
+
+  const result = await callNaverSearchTrend(env, requestBody);
+  const stored = {
+    finished: true,
+    tested_at: new Date().toISOString(),
+    ok: result.ok,
+    status: result.status,
+    http_status: result.http_status,
+    usage: result.usage ?? null,
+    response_summary: result.ok
+      ? {
+          startDate: result.data?.startDate ?? null,
+          endDate: result.data?.endDate ?? null,
+          timeUnit: result.data?.timeUnit ?? null,
+          result_count: Array.isArray(result.data?.results) ? result.data.results.length : 0
+        }
+      : result.data ?? result.error ?? null
+  };
+
+  await kv.put(testKey, JSON.stringify(stored));
+  return stored;
+}
+
+// 공개 페이지 요청에서는 NAVER를 직접 호출하지 않고 캐시만 읽는다.
 export async function fetchNaverTrends(env) {
   return readNaverSnapshot(env);
 }
