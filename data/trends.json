@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-09-27T21:30:43+00:00",
+  "generated_at": "2026-09-27T23:56:40+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "norwegia vs portugal",
+              "keyword": "김시우",
               "rank": 1,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-09-27T13:20:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-09-27T15:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "무인 잠수정",
+              "keyword": "콜럼버스 크루 대 인터 마이애미",
               "rank": 2,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-09-27T13:20:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-27T15:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "일본",
+              "keyword": "나는 solo",
               "rank": 3,
-              "value": 20000.0,
-              "value_label": "20000+",
-              "published_at": "2026-09-27T13:10:00-07:00",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-09-27T15:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "김준호",
+              "keyword": "식중독",
               "rank": 4,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-09-27T13:10:00-07:00",
+              "published_at": "2026-09-27T15:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "우루과이 축구 국가대표팀",
+              "keyword": "klasemen tim nasional sepak bola norwegia vs portugal",
               "rank": 5,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-09-27T13:10:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-09-27T15:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "브레이브스 대 말린스",
+              "keyword": "권상우",
               "rank": 6,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-09-27T13:10:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-27T15:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "검사",
+              "keyword": "엔비디아",
               "rank": 7,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-09-27T13:10:00-07:00",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-09-27T14:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "nfl",
+              "keyword": "weather",
               "rank": 8,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-27T14:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "차범근",
+              "rank": 9,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-09-27T14:40:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "김량하",
+              "rank": 10,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-09-27T13:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "다저스 대 자이언츠",
-              "rank": 9,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-09-27T12:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "두산에너 빌리티",
-              "rank": 10,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-09-27T12:50:00-07:00",
+              "published_at": "2026-09-27T14:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,47 +143,47 @@
       },
       "candidates": [
         {
-          "keyword": "norwegia vs portugal",
-          "normalized_keyword": "norwegia vs portugal",
+          "keyword": "김시우",
+          "normalized_keyword": "김시우",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "무인 잠수정",
-          "normalized_keyword": "무인 잠수정",
+          "keyword": "콜럼버스 크루 대 인터 마이애미",
+          "normalized_keyword": "콜럼버스 크루 대 인터 마이애미",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 2,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "일본",
-          "normalized_keyword": "일본",
+          "keyword": "나는 solo",
+          "normalized_keyword": "나는 solo",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 3,
-              "value": 20000.0,
-              "value_label": "20000+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "김준호",
-          "normalized_keyword": "김준호",
+          "keyword": "식중독",
+          "normalized_keyword": "식중독",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
@@ -195,80 +195,80 @@
           }
         },
         {
-          "keyword": "우루과이 축구 국가대표팀",
-          "normalized_keyword": "우루과이 축구 국가대표팀",
+          "keyword": "klasemen tim nasional sepak bola norwegia vs portugal",
+          "normalized_keyword": "klasemen tim nasional sepak bola norwegia vs portugal",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "브레이브스 대 말린스",
-          "normalized_keyword": "브레이브스 대 말린스",
+          "keyword": "권상우",
+          "normalized_keyword": "권상우",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 6,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "검사",
-          "normalized_keyword": "검사",
+          "keyword": "엔비디아",
+          "normalized_keyword": "엔비디아",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 7,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "nfl",
-          "normalized_keyword": "nfl",
+          "keyword": "weather",
+          "normalized_keyword": "weather",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "다저스 대 자이언츠",
-          "normalized_keyword": "다저스 대 자이언츠",
+          "keyword": "차범근",
+          "normalized_keyword": "차범근",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "두산에너 빌리티",
-          "normalized_keyword": "두산에너 빌리티",
+          "keyword": "김량하",
+          "normalized_keyword": "김량하",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         }
