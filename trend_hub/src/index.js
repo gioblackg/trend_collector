@@ -1,6 +1,6 @@
 import { fetchGoogleTrendData } from "./search/google.js";
 import { fetchNamuWikiTrends } from "./search/namuwiki.js";
-import { fetchNaverTrends, getNaverUsage } from "./search/naver.js";
+import { fetchNaverTrends, getNaverUsage, testNaverConnection } from "./search/naver.js";
 
 function commonHeaders() {
   return {
@@ -99,8 +99,6 @@ function browserNamuSource(input) {
 }
 
 async function buildSearchPayload(env, browserNamuItems = null) {
-  // 중요: 공개 요청에서는 NAVER API를 직접 호출하지 않는다.
-  // fetchNaverTrends()는 저장된 NAVER 캐시만 읽는다.
   const [google, namuwiki, naver] = await Promise.all([
     fetchGoogleTrendData(),
     browserNamuItems ? Promise.resolve(browserNamuSource(browserNamuItems)) : fetchNamuWikiTrends(),
@@ -167,6 +165,10 @@ export default {
       return json(await getNaverUsage(env));
     }
 
+    if (url.pathname === "/api/naver/test" && request.method === "GET") {
+      return json(await testNaverConnection(env));
+    }
+
     if (url.pathname === "/test/namu-browser") {
       return html(namuBrowserTestPage());
     }
@@ -179,8 +181,6 @@ export default {
   },
 
   async scheduled(_controller, env, ctx) {
-    // 현재는 NAVER 연결 전 단계. 추후 10분 스케줄에서만 NAVER API를 갱신한다.
-    // 일반 사용자 요청은 NAVER API 호출 카운트에 영향을 주지 않는다.
     ctx.waitUntil(buildSearchPayload(env));
   }
 };
