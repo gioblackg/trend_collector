@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-09-27T12:43:13+00:00",
+  "generated_at": "2026-09-27T13:00:33+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -15,8 +15,8 @@
             {
               "keyword": "우상혁",
               "rank": 1,
-              "value": 1000.0,
-              "value_label": "1000+",
+              "value": 2000.0,
+              "value_label": "2000+",
               "published_at": "2026-09-27T04:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
@@ -46,7 +46,7 @@
               }
             },
             {
-              "keyword": "박유천",
+              "keyword": "조형우",
               "rank": 4,
               "value": 500.0,
               "value_label": "500+",
@@ -57,10 +57,10 @@
               }
             },
             {
-              "keyword": "조형우",
+              "keyword": "박유천",
               "rank": 5,
-              "value": 200.0,
-              "value_label": "200+",
+              "value": 500.0,
+              "value_label": "500+",
               "published_at": "2026-09-27T03:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
@@ -134,9 +134,10 @@
           "source": "namuwiki",
           "status": "error",
           "items": [],
-          "error": "GET 실패: https://namu.wiki/ / HTTP Error 403: Forbidden",
+          "error": "GET 실패: https://search.namu.wiki/api/ranking / HTTP Error 403: Forbidden",
           "meta": {
-            "url": "https://namu.wiki/"
+            "url": "https://search.namu.wiki/api/ranking",
+            "collector": "ranking_api_v1"
           }
         }
       },
@@ -149,8 +150,8 @@
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         },
@@ -181,8 +182,8 @@
           }
         },
         {
-          "keyword": "박유천",
-          "normalized_keyword": "박유천",
+          "keyword": "조형우",
+          "normalized_keyword": "조형우",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
@@ -194,15 +195,15 @@
           }
         },
         {
-          "keyword": "조형우",
-          "normalized_keyword": "조형우",
+          "keyword": "박유천",
+          "normalized_keyword": "박유천",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
