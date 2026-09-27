@@ -1,6 +1,12 @@
 import { fetchGoogleTrendData } from "./search/google.js";
 import { fetchNamuWikiTrends } from "./search/namuwiki.js";
-import { fetchNaverTrends, getNaverUsage, testNaverConnection } from "./search/naver.js";
+import {
+  fetchNaverTrends,
+  getNaverUsage,
+  testNaverConnection,
+  refreshNaverCandidateScores
+} from "./search/naver.js";
+import { collectCandidateKeywords, rankSearchCandidates } from "./search/ranking.js";
 
 function commonHeaders() {
   return {
@@ -61,7 +67,9 @@ function mergeSearchSources(sources) {
       row.sources[source.source] = {
         rank: item.rank ?? null,
         value: item.value ?? null,
-        value_label: item.value_label ?? null
+        value_label: item.value_label ?? null,
+        score: item.score ?? null,
+        relative_strength: item.relative_strength ?? null
       };
       row.source_count = Object.keys(row.sources).length;
     }
@@ -98,26 +106,97 @@ function browserNamuSource(input) {
   };
 }
 
+async function storeBrowserNamu(env, source) {
+  if (!env?.TREND_STATE || source?.status !== "ok") return;
+  await env.TREND_STATE.put(
+    "namuwiki:latest",
+    JSON.stringify({ ...source, generated_at: new Date().toISOString() })
+  );
+}
+
+async function readCachedNamu(env) {
+  if (!env?.TREND_STATE) return null;
+  return env.TREND_STATE.get("namuwiki:latest", "json");
+}
+
+async function resolveNamuSource(env, browserNamuItems = null) {
+  if (browserNamuItems) {
+    const source = browserNamuSource(browserNamuItems);
+    await storeBrowserNamu(env, source);
+    return source;
+  }
+
+  const cached = await readCachedNamu(env);
+  if (cached?.status === "ok" && Array.isArray(cached?.items) && cached.items.length) return cached;
+
+  return fetchNamuWikiTrends();
+}
+
 async function buildSearchPayload(env, browserNamuItems = null) {
   const [google, namuwiki, naver] = await Promise.all([
     fetchGoogleTrendData(),
-    browserNamuItems ? Promise.resolve(browserNamuSource(browserNamuItems)) : fetchNamuWikiTrends(),
+    resolveNamuSource(env, browserNamuItems),
     fetchNaverTrends(env)
   ]);
 
   const sources = [google, namuwiki, naver];
   const candidates = mergeSearchSources(sources);
+  const ranked = rankSearchCandidates(google, namuwiki, naver);
+  const naverReady = naver?.status === "ok" && Array.isArray(naver?.items) && naver.items.length > 0;
 
   return {
-    schema_version: "1.0",
+    schema_version: "1.1",
     generated_at: new Date().toISOString(),
     category: "search",
     status: sources.some((s) => s.status === "ok") ? "partial_or_ok" : "error",
-    ranking_status: "not_finalized",
+    ranking_status: naverReady ? "finalized" : "waiting_for_naver",
+    scoring: {
+      google_weight: 0.4,
+      naver_weight: 0.4,
+      namuwiki_weight: 0.2,
+      google_namuwiki_overlap_bonus: 5
+    },
     sources: Object.fromEntries(sources.map((s) => [s.source, s])),
     candidates,
-    top10: []
+    ranked,
+    top10: ranked.slice(0, 10)
   };
+}
+
+async function scheduledRefresh(env) {
+  const google = await fetchGoogleTrendData();
+  const cachedNamu = await readCachedNamu(env);
+  const namuwiki = cachedNamu?.status === "ok" ? cachedNamu : await fetchNamuWikiTrends();
+  const candidates = collectCandidateKeywords(google, namuwiki);
+  const naver = await refreshNaverCandidateScores(env, candidates);
+  const ranked = rankSearchCandidates(google, namuwiki, naver);
+
+  const snapshot = {
+    schema_version: "1.1",
+    generated_at: new Date().toISOString(),
+    category: "search",
+    status: "ok",
+    ranking_status: naver?.status === "ok" ? "finalized" : "partial",
+    scoring: {
+      google_weight: 0.4,
+      naver_weight: 0.4,
+      namuwiki_weight: 0.2,
+      google_namuwiki_overlap_bonus: 5
+    },
+    sources: {
+      [google.source]: google,
+      [namuwiki.source]: namuwiki,
+      [naver.source]: naver
+    },
+    candidates: mergeSearchSources([google, namuwiki, naver]),
+    ranked,
+    top10: ranked.slice(0, 10)
+  };
+
+  if (env?.TREND_STATE) {
+    await env.TREND_STATE.put("search:latest", JSON.stringify(snapshot));
+  }
+  return snapshot;
 }
 
 function namuBrowserTestPage() {
@@ -125,7 +204,7 @@ function namuBrowserTestPage() {
 }
 
 function namuIntegratedTestPage() {
-  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Trend Hub integration test</title><style>body{font-family:system-ui,sans-serif;padding:24px;line-height:1.5}pre{white-space:pre-wrap;background:#f5f5f5;padding:16px;border-radius:8px}</style></head><body><h1>검색 트렌드 통합 테스트</h1><p id="status">나무위키 → Trend Hub 통합 중...</p><pre id="result"></pre><script>const s=document.getElementById('status');const r=document.getElementById('result');(async()=>{try{const nr=await fetch('https://search.namu.wiki/api/ranking',{headers:{'Accept':'application/json, text/plain, */*'}});if(!nr.ok)throw new Error('Namu HTTP '+nr.status);const namu=await nr.json();const hr=await fetch('/api/search/merge',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({namuwiki:namu})});const merged=await hr.json();const g=merged?.sources?.google_trends?.items?.length??0;const n=merged?.sources?.namuwiki?.items?.length??0;const v=merged?.sources?.naver?.items?.length??0;s.textContent='통합 성공 — Google '+g+'개 / 나무위키 '+n+'개 / 네이버 '+v+'개 / 통합 후보 '+(merged?.candidates?.length??0)+'개';r.textContent=JSON.stringify(merged,null,2)}catch(e){s.textContent='통합 실패';r.textContent=String(e)}})();</script></body></html>`;
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Trend Hub integration test</title><style>body{font-family:system-ui,sans-serif;padding:24px;line-height:1.5}pre{white-space:pre-wrap;background:#f5f5f5;padding:16px;border-radius:8px}</style></head><body><h1>검색 트렌드 통합 테스트</h1><p id="status">나무위키 → Trend Hub 통합 중...</p><pre id="result"></pre><script>const s=document.getElementById('status');const r=document.getElementById('result');(async()=>{try{const nr=await fetch('https://search.namu.wiki/api/ranking',{headers:{'Accept':'application/json, text/plain, */*'}});if(!nr.ok)throw new Error('Namu HTTP '+nr.status);const namu=await nr.json();const hr=await fetch('/api/search/merge',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({namuwiki:namu})});const merged=await hr.json();const g=merged?.sources?.google_trends?.items?.length??0;const n=merged?.sources?.namuwiki?.items?.length??0;const v=merged?.sources?.naver?.items?.length??0;s.textContent='통합 성공 — Google '+g+'개 / 나무위키 '+n+'개 / 네이버 '+v+'개 / TOP10 '+(merged?.top10?.length??0);r.textContent=JSON.stringify(merged,null,2)}catch(e){s.textContent='통합 실패';r.textContent=String(e)}})();</script></body></html>`;
 }
 
 export default {
@@ -169,6 +248,11 @@ export default {
       return json(await testNaverConnection(env));
     }
 
+    if (url.pathname === "/api/search/latest" && request.method === "GET") {
+      const cached = env?.TREND_STATE ? await env.TREND_STATE.get("search:latest", "json") : null;
+      return json(cached ?? { status: "cache_empty" });
+    }
+
     if (url.pathname === "/test/namu-browser") {
       return html(namuBrowserTestPage());
     }
@@ -181,6 +265,6 @@ export default {
   },
 
   async scheduled(_controller, env, ctx) {
-    ctx.waitUntil(buildSearchPayload(env));
+    ctx.waitUntil(scheduledRefresh(env));
   }
 };
