@@ -10,6 +10,7 @@ import {
   rankSearchCandidates,
   getRankingMetadata
 } from "./search/ranking.js";
+import { searchYouTubeVideos } from "./youtube/search.js";
 
 function commonHeaders() {
   return {
@@ -265,6 +266,21 @@ export default {
 
     if (url.pathname === "/api/search" && request.method === "GET") {
       return json(await buildSearchPayload(env));
+    }
+
+    if (url.pathname === "/api/youtube/search" && request.method === "GET") {
+      const q = url.searchParams.get("q") ?? "";
+      if (!q.trim()) {
+        return json({ status: "error", error: "missing_query", items: [] }, 400);
+      }
+
+      const result = await searchYouTubeVideos(env, q, { maxResults: 12 });
+      const status = result.status === "ok"
+        ? 200
+        : result.error === "youtube_api_key_missing"
+          ? 500
+          : 502;
+      return json(result, status);
     }
 
     if (url.pathname === "/api/search/merge" && request.method === "POST") {
