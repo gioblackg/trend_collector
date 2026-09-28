@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-09-28T04:29:53+00:00",
+  "generated_at": "2026-09-28T11:11:05+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "어머니",
+              "keyword": "한국 대 우루과이",
               "rank": 1,
-              "value": 10000.0,
-              "value_label": "10000+",
-              "published_at": "2026-09-27T19:50:00-07:00",
+              "value": 100000.0,
+              "value_label": "100000+",
+              "published_at": "2026-09-28T03:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "우루과이 축구 국가 대표팀",
+              "keyword": "박세인",
               "rank": 2,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-09-27T19:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "대기업",
-              "rank": 3,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-09-27T19:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "삼전 닉스",
-              "rank": 4,
-              "value": 10000.0,
-              "value_label": "10000+",
-              "published_at": "2026-09-27T19:30:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "치매",
-              "rank": 5,
-              "value": 5000.0,
-              "value_label": "5000+",
-              "published_at": "2026-09-27T18:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "0m 계주",
-              "rank": 6,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-09-27T18:40:00-07:00",
+              "published_at": "2026-09-28T02:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "pakistan vs hong kong",
+              "keyword": "인천대공원",
+              "rank": 3,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-28T02:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "삼성 갤럭시",
+              "rank": 4,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-28T02:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "재산세",
+              "rank": 5,
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-09-28T02:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "철도",
+              "rank": 6,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-09-28T02:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "볼로디미르 젤렌스키",
               "rank": 7,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-09-27T17:10:00-07:00",
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-09-28T02:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "오유경 아나운서",
+              "keyword": "여행",
               "rank": 8,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-09-27T16:50:00-07:00",
+              "published_at": "2026-09-28T02:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "columbus vs inter miami",
+              "keyword": "정유경",
               "rank": 9,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-09-27T16:20:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-28T01:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "오늘날씨",
+              "keyword": "kia 타이거즈",
               "rank": 10,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-09-27T16:00:00-07:00",
+              "value": 5000.0,
+              "value_label": "5000+",
+              "published_at": "2026-09-28T01:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,99 +143,99 @@
       },
       "candidates": [
         {
-          "keyword": "어머니",
-          "normalized_keyword": "어머니",
+          "keyword": "한국 대 우루과이",
+          "normalized_keyword": "한국 대 우루과이",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 10000.0,
-              "value_label": "10000+"
+              "value": 100000.0,
+              "value_label": "100000+"
             }
           }
         },
         {
-          "keyword": "우루과이 축구 국가 대표팀",
-          "normalized_keyword": "우루과이 축구 국가 대표팀",
+          "keyword": "박세인",
+          "normalized_keyword": "박세인",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 2,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "대기업",
-          "normalized_keyword": "대기업",
-          "first_seen_order": 3,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 3,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "삼전 닉스",
-          "normalized_keyword": "삼전 닉스",
-          "first_seen_order": 4,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 4,
-              "value": 10000.0,
-              "value_label": "10000+"
-            }
-          }
-        },
-        {
-          "keyword": "치매",
-          "normalized_keyword": "치매",
-          "first_seen_order": 5,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 5,
-              "value": 5000.0,
-              "value_label": "5000+"
-            }
-          }
-        },
-        {
-          "keyword": "0m 계주",
-          "normalized_keyword": "m 계주",
-          "first_seen_order": 6,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 6,
               "value": 1000.0,
               "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "pakistan vs hong kong",
-          "normalized_keyword": "pakistan vs hong kong",
+          "keyword": "인천대공원",
+          "normalized_keyword": "인천대공원",
+          "first_seen_order": 3,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 3,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "삼성 갤럭시",
+          "normalized_keyword": "삼성 갤럭시",
+          "first_seen_order": 4,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 4,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "재산세",
+          "normalized_keyword": "재산세",
+          "first_seen_order": 5,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 5,
+              "value": 2000.0,
+              "value_label": "2000+"
+            }
+          }
+        },
+        {
+          "keyword": "철도",
+          "normalized_keyword": "철도",
+          "first_seen_order": 6,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 6,
+              "value": 500.0,
+              "value_label": "500+"
+            }
+          }
+        },
+        {
+          "keyword": "볼로디미르 젤렌스키",
+          "normalized_keyword": "볼로디미르 젤렌스키",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 7,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "오유경 아나운서",
-          "normalized_keyword": "오유경 아나운서",
+          "keyword": "여행",
+          "normalized_keyword": "여행",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
@@ -247,28 +247,28 @@
           }
         },
         {
-          "keyword": "columbus vs inter miami",
-          "normalized_keyword": "columbus vs inter miami",
+          "keyword": "정유경",
+          "normalized_keyword": "정유경",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "오늘날씨",
-          "normalized_keyword": "오늘날씨",
+          "keyword": "kia 타이거즈",
+          "normalized_keyword": "kia 타이거즈",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 5000.0,
+              "value_label": "5000+"
             }
           }
         }
