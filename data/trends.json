@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-09-29T20:16:12+00:00",
+  "generated_at": "2026-09-29T23:46:08+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "추무빈",
+              "keyword": "연애전쟁",
               "rank": 1,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-09-29T12:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "홍진영",
-              "rank": 2,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-09-29T12:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "spain vs croatia",
-              "rank": 3,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-09-29T11:40:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "우크라이나",
-              "rank": 4,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-09-29T11:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "체코 대 잉글랜드",
-              "rank": 5,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-09-29T11:00:00-07:00",
+              "published_at": "2026-09-29T15:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "맨시티",
+              "keyword": "송은이",
+              "rank": 2,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-29T15:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "오픈ai",
+              "rank": 3,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-09-29T15:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "한화 이글스",
+              "rank": 4,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-29T15:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "국군의 날",
+              "rank": 5,
+              "value": 5000.0,
+              "value_label": "5000+",
+              "published_at": "2026-09-29T15:00:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "우서윤",
               "rank": 6,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-09-29T09:50:00-07:00",
+              "published_at": "2026-09-29T15:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "이수현",
+              "keyword": "สภาพอากาศ",
               "rank": 7,
               "value": 500.0,
               "value_label": "500+",
-              "published_at": "2026-09-29T09:00:00-07:00",
+              "published_at": "2026-09-29T15:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "클로드",
+              "keyword": "잠실주공5단지 아파트",
               "rank": 8,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-09-29T08:00:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-09-29T15:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "정부24",
+              "keyword": "기자",
               "rank": 9,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-09-29T07:50:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-09-29T14:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "천궁",
+              "keyword": "날씨",
               "rank": 10,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-09-29T07:10:00-07:00",
+              "value": 200000.0,
+              "value_label": "200000+",
+              "published_at": "2026-09-29T14:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,73 +143,73 @@
       },
       "candidates": [
         {
-          "keyword": "추무빈",
-          "normalized_keyword": "추무빈",
+          "keyword": "연애전쟁",
+          "normalized_keyword": "연애전쟁",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "홍진영",
-          "normalized_keyword": "홍진영",
-          "first_seen_order": 2,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 2,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "spain vs croatia",
-          "normalized_keyword": "spain vs croatia",
-          "first_seen_order": 3,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 3,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "우크라이나",
-          "normalized_keyword": "우크라이나",
-          "first_seen_order": 4,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 4,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "체코 대 잉글랜드",
-          "normalized_keyword": "체코 대 잉글랜드",
-          "first_seen_order": 5,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 5,
               "value": 1000.0,
               "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "맨시티",
-          "normalized_keyword": "맨시티",
+          "keyword": "송은이",
+          "normalized_keyword": "송은이",
+          "first_seen_order": 2,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 2,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "오픈ai",
+          "normalized_keyword": "오픈ai",
+          "first_seen_order": 3,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 3,
+              "value": 500.0,
+              "value_label": "500+"
+            }
+          }
+        },
+        {
+          "keyword": "한화 이글스",
+          "normalized_keyword": "한화 이글스",
+          "first_seen_order": 4,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 4,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "국군의 날",
+          "normalized_keyword": "국군의 날",
+          "first_seen_order": 5,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 5,
+              "value": 5000.0,
+              "value_label": "5000+"
+            }
+          }
+        },
+        {
+          "keyword": "우서윤",
+          "normalized_keyword": "우서윤",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
@@ -221,8 +221,8 @@
           }
         },
         {
-          "keyword": "이수현",
-          "normalized_keyword": "이수현",
+          "keyword": "สภาพอากาศ",
+          "normalized_keyword": "สภาพอากาศ",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
@@ -234,41 +234,41 @@
           }
         },
         {
-          "keyword": "클로드",
-          "normalized_keyword": "클로드",
+          "keyword": "잠실주공5단지 아파트",
+          "normalized_keyword": "잠실주공5단지 아파트",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "정부24",
-          "normalized_keyword": "정부24",
+          "keyword": "기자",
+          "normalized_keyword": "기자",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "천궁",
-          "normalized_keyword": "천궁",
+          "keyword": "날씨",
+          "normalized_keyword": "날씨",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 200000.0,
+              "value_label": "200000+"
             }
           }
         }
