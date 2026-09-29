@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-09-29T15:45:38+00:00",
+  "generated_at": "2026-09-29T20:16:12+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "천궁",
+              "keyword": "추무빈",
               "rank": 1,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-09-29T07:10:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-09-29T12:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "단발",
+              "keyword": "홍진영",
               "rank": 2,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-09-29T07:10:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-09-29T12:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "도맑음",
+              "keyword": "spain vs croatia",
               "rank": 3,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-09-29T07:10:00-07:00",
+              "published_at": "2026-09-29T11:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "wnba playoffs",
+              "keyword": "우크라이나",
               "rank": 4,
               "value": 500.0,
               "value_label": "500+",
-              "published_at": "2026-09-29T07:00:00-07:00",
+              "published_at": "2026-09-29T11:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "xrp",
+              "keyword": "체코 대 잉글랜드",
               "rank": 5,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-09-29T06:50:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-29T11:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "공군사관학교",
+              "keyword": "맨시티",
               "rank": 6,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-09-29T06:20:00-07:00",
+              "published_at": "2026-09-29T09:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "중증외상센터",
+              "keyword": "이수현",
               "rank": 7,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-09-29T09:00:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "클로드",
+              "rank": 8,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-09-29T05:50:00-07:00",
+              "published_at": "2026-09-29T08:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "커플",
-              "rank": 8,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-09-29T05:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "쿠라시",
+              "keyword": "정부24",
               "rank": 9,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-09-29T05:50:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-29T07:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "김승혜",
+              "keyword": "천궁",
               "rank": 10,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-09-29T05:30:00-07:00",
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-09-29T07:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,34 +143,34 @@
       },
       "candidates": [
         {
-          "keyword": "천궁",
-          "normalized_keyword": "천궁",
+          "keyword": "추무빈",
+          "normalized_keyword": "추무빈",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "단발",
-          "normalized_keyword": "단발",
+          "keyword": "홍진영",
+          "normalized_keyword": "홍진영",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 2,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "도맑음",
-          "normalized_keyword": "도맑음",
+          "keyword": "spain vs croatia",
+          "normalized_keyword": "spain vs croatia",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
@@ -182,8 +182,8 @@
           }
         },
         {
-          "keyword": "wnba playoffs",
-          "normalized_keyword": "wnba playoffs",
+          "keyword": "우크라이나",
+          "normalized_keyword": "우크라이나",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
@@ -195,21 +195,21 @@
           }
         },
         {
-          "keyword": "xrp",
-          "normalized_keyword": "xrp",
+          "keyword": "체코 대 잉글랜드",
+          "normalized_keyword": "체코 대 잉글랜드",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "공군사관학교",
-          "normalized_keyword": "공군사관학교",
+          "keyword": "맨시티",
+          "normalized_keyword": "맨시티",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
@@ -221,54 +221,54 @@
           }
         },
         {
-          "keyword": "중증외상센터",
-          "normalized_keyword": "중증외상센터",
+          "keyword": "이수현",
+          "normalized_keyword": "이수현",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 7,
+              "value": 500.0,
+              "value_label": "500+"
+            }
+          }
+        },
+        {
+          "keyword": "클로드",
+          "normalized_keyword": "클로드",
+          "first_seen_order": 8,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 8,
               "value": 1000.0,
               "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "커플",
-          "normalized_keyword": "커플",
-          "first_seen_order": 8,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 8,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "쿠라시",
-          "normalized_keyword": "쿠라시",
+          "keyword": "정부24",
+          "normalized_keyword": "정부24",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "김승혜",
-          "normalized_keyword": "김승혜",
+          "keyword": "천궁",
+          "normalized_keyword": "천궁",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         }
