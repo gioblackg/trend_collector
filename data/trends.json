@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-09-29T09:06:10+00:00",
+  "generated_at": "2026-09-29T15:45:38+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "스크린쿼터",
+              "keyword": "천궁",
               "rank": 1,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-29T07:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "단발",
+              "rank": 2,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-29T07:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "도맑음",
+              "rank": 3,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-09-29T01:00:00-07:00",
+              "published_at": "2026-09-29T07:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "혈당",
-              "rank": 2,
-              "value": 10000.0,
-              "value_label": "10000+",
-              "published_at": "2026-09-29T00:30:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "박보경",
-              "rank": 3,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-09-29T00:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "배구",
+              "keyword": "wnba playoffs",
               "rank": 4,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-09-29T00:10:00-07:00",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-09-29T07:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "경보",
+              "keyword": "xrp",
               "rank": 5,
               "value": 500.0,
               "value_label": "500+",
-              "published_at": "2026-09-29T00:00:00-07:00",
+              "published_at": "2026-09-29T06:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "임신",
+              "keyword": "공군사관학교",
               "rank": 6,
-              "value": 5000.0,
-              "value_label": "5000+",
-              "published_at": "2026-09-28T23:30:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-29T06:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "이소희",
+              "keyword": "중증외상센터",
               "rank": 7,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-29T05:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "커플",
+              "rank": 8,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-09-29T05:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "쿠라시",
+              "rank": 9,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-09-28T22:40:00-07:00",
+              "published_at": "2026-09-29T05:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "해커",
-              "rank": 8,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-09-28T22:30:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "송영길",
-              "rank": 9,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-09-28T22:30:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "당뇨병",
+              "keyword": "김승혜",
               "rank": 10,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-09-28T21:50:00-07:00",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-09-29T05:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,60 +143,60 @@
       },
       "candidates": [
         {
-          "keyword": "스크린쿼터",
-          "normalized_keyword": "스크린쿼터",
+          "keyword": "천궁",
+          "normalized_keyword": "천궁",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "단발",
+          "normalized_keyword": "단발",
+          "first_seen_order": 2,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 2,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "도맑음",
+          "normalized_keyword": "도맑음",
+          "first_seen_order": 3,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 3,
               "value": 200.0,
               "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "혈당",
-          "normalized_keyword": "혈당",
-          "first_seen_order": 2,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 2,
-              "value": 10000.0,
-              "value_label": "10000+"
-            }
-          }
-        },
-        {
-          "keyword": "박보경",
-          "normalized_keyword": "박보경",
-          "first_seen_order": 3,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 3,
-              "value": 1000.0,
-              "value_label": "1000+"
-            }
-          }
-        },
-        {
-          "keyword": "배구",
-          "normalized_keyword": "배구",
+          "keyword": "wnba playoffs",
+          "normalized_keyword": "wnba playoffs",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 4,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "경보",
-          "normalized_keyword": "경보",
+          "keyword": "xrp",
+          "normalized_keyword": "xrp",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
@@ -208,67 +208,67 @@
           }
         },
         {
-          "keyword": "임신",
-          "normalized_keyword": "임신",
+          "keyword": "공군사관학교",
+          "normalized_keyword": "공군사관학교",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 6,
-              "value": 5000.0,
-              "value_label": "5000+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "이소희",
-          "normalized_keyword": "이소희",
+          "keyword": "중증외상센터",
+          "normalized_keyword": "중증외상센터",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 7,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "커플",
+          "normalized_keyword": "커플",
+          "first_seen_order": 8,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 8,
+              "value": 500.0,
+              "value_label": "500+"
+            }
+          }
+        },
+        {
+          "keyword": "쿠라시",
+          "normalized_keyword": "쿠라시",
+          "first_seen_order": 9,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 9,
               "value": 200.0,
               "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "해커",
-          "normalized_keyword": "해커",
-          "first_seen_order": 8,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 8,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "송영길",
-          "normalized_keyword": "송영길",
-          "first_seen_order": 9,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 9,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "당뇨병",
-          "normalized_keyword": "당뇨병",
+          "keyword": "김승혜",
+          "normalized_keyword": "김승혜",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         }
