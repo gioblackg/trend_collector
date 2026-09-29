@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-09-28T23:30:06+00:00",
+  "generated_at": "2026-09-29T02:41:57+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "대학",
+              "keyword": "빌딩",
               "rank": 1,
               "value": 500.0,
               "value_label": "500+",
-              "published_at": "2026-09-28T15:20:00-07:00",
+              "published_at": "2026-09-28T18:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "골프",
+              "keyword": "윤종훈",
               "rank": 2,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-09-28T15:10:00-07:00",
+              "published_at": "2026-09-28T18:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "수익률",
+              "keyword": "세무서",
               "rank": 3,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-09-28T15:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "놀면 뭐하니?",
-              "rank": 4,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-09-28T15:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "날씨",
-              "rank": 5,
-              "value": 50000.0,
-              "value_label": "50000+",
-              "published_at": "2026-09-28T15:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "핑클",
-              "rank": 6,
               "value": 500.0,
               "value_label": "500+",
-              "published_at": "2026-09-28T15:00:00-07:00",
+              "published_at": "2026-09-28T18:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "전설 의 사내",
+              "keyword": "개그콘서트",
+              "rank": 4,
+              "value": 5000.0,
+              "value_label": "5000+",
+              "published_at": "2026-09-28T18:00:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "장한별",
+              "rank": 5,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-09-28T17:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "김명수 배우",
+              "rank": 6,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-09-28T17:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "정은표",
               "rank": 7,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-09-28T15:00:00-07:00",
+              "published_at": "2026-09-28T16:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "weather",
+              "keyword": "문화일보",
               "rank": 8,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-09-28T14:50:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-09-28T16:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "สภาพอากาศ",
+              "keyword": "sl vs nep",
               "rank": 9,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-09-28T14:50:00-07:00",
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-09-28T16:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "회의",
+              "keyword": "창신 메모리 테크놀로지",
               "rank": 10,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-09-28T14:40:00-07:00",
+              "value": 5000.0,
+              "value_label": "5000+",
+              "published_at": "2026-09-28T16:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,8 +143,8 @@
       },
       "candidates": [
         {
-          "keyword": "대학",
-          "normalized_keyword": "대학",
+          "keyword": "빌딩",
+          "normalized_keyword": "빌딩",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
@@ -156,8 +156,8 @@
           }
         },
         {
-          "keyword": "골프",
-          "normalized_keyword": "골프",
+          "keyword": "윤종훈",
+          "normalized_keyword": "윤종훈",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
@@ -169,60 +169,60 @@
           }
         },
         {
-          "keyword": "수익률",
-          "normalized_keyword": "수익률",
+          "keyword": "세무서",
+          "normalized_keyword": "세무서",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 3,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "놀면 뭐하니?",
-          "normalized_keyword": "놀면 뭐하니?",
-          "first_seen_order": 4,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 4,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "날씨",
-          "normalized_keyword": "날씨",
-          "first_seen_order": 5,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 5,
-              "value": 50000.0,
-              "value_label": "50000+"
-            }
-          }
-        },
-        {
-          "keyword": "핑클",
-          "normalized_keyword": "핑클",
-          "first_seen_order": 6,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 6,
               "value": 500.0,
               "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "전설 의 사내",
-          "normalized_keyword": "전설 의 사내",
+          "keyword": "개그콘서트",
+          "normalized_keyword": "개그콘서트",
+          "first_seen_order": 4,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 4,
+              "value": 5000.0,
+              "value_label": "5000+"
+            }
+          }
+        },
+        {
+          "keyword": "장한별",
+          "normalized_keyword": "장한별",
+          "first_seen_order": 5,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 5,
+              "value": 200.0,
+              "value_label": "200+"
+            }
+          }
+        },
+        {
+          "keyword": "김명수 배우",
+          "normalized_keyword": "김명수 배우",
+          "first_seen_order": 6,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 6,
+              "value": 200.0,
+              "value_label": "200+"
+            }
+          }
+        },
+        {
+          "keyword": "정은표",
+          "normalized_keyword": "정은표",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
@@ -234,41 +234,41 @@
           }
         },
         {
-          "keyword": "weather",
-          "normalized_keyword": "weather",
+          "keyword": "문화일보",
+          "normalized_keyword": "문화일보",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "สภาพอากาศ",
-          "normalized_keyword": "สภาพอากาศ",
+          "keyword": "sl vs nep",
+          "normalized_keyword": "sl vs nep",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "회의",
-          "normalized_keyword": "회의",
+          "keyword": "창신 메모리 테크놀로지",
+          "normalized_keyword": "창신 메모리 테크놀로지",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 5000.0,
+              "value_label": "5000+"
             }
           }
         }
