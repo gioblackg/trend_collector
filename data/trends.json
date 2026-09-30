@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-09-30T20:19:44+00:00",
+  "generated_at": "2026-09-30T23:58:52+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "한화오션",
+              "keyword": "쓰레기봉투",
               "rank": 1,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-09-30T12:10:00-07:00",
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-09-30T15:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "에콰도르 축구 국가대표팀",
+              "keyword": "최유빈",
               "rank": 2,
               "value": 500.0,
               "value_label": "500+",
-              "published_at": "2026-09-30T12:00:00-07:00",
+              "published_at": "2026-09-30T15:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "한일전",
+              "keyword": "이상순",
               "rank": 3,
-              "value": 20000.0,
-              "value_label": "20000+",
-              "published_at": "2026-09-30T11:40:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-09-30T15:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "대한민국 검찰청",
+              "keyword": "토트넘 홋스퍼 fc",
               "rank": 4,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-09-30T11:20:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-30T15:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "항공 엔진",
+              "keyword": "이옥섭",
               "rank": 5,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-09-30T11:10:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-09-30T15:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "연합뉴스",
+              "keyword": "분리수거",
               "rank": 6,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-09-30T10:40:00-07:00",
+              "published_at": "2026-09-30T15:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "fat bear",
+              "keyword": "이영표",
               "rank": 7,
+              "value": 10000.0,
+              "value_label": "10000+",
+              "published_at": "2026-09-30T15:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "gemini 4",
+              "rank": 8,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-09-30T10:10:00-07:00",
+              "published_at": "2026-09-30T15:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "담배",
-              "rank": 8,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-09-30T09:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "이동진",
+              "keyword": "신승호",
               "rank": 9,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-09-30T09:40:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-09-30T15:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "김장",
+              "keyword": "보험계약",
               "rank": 10,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-09-30T09:10:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-09-30T15:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,21 +143,21 @@
       },
       "candidates": [
         {
-          "keyword": "한화오션",
-          "normalized_keyword": "한화오션",
+          "keyword": "쓰레기봉투",
+          "normalized_keyword": "쓰레기봉투",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "에콰도르 축구 국가대표팀",
-          "normalized_keyword": "에콰도르 축구 국가대표팀",
+          "keyword": "최유빈",
+          "normalized_keyword": "최유빈",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
@@ -169,47 +169,47 @@
           }
         },
         {
-          "keyword": "한일전",
-          "normalized_keyword": "한일전",
+          "keyword": "이상순",
+          "normalized_keyword": "이상순",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 3,
-              "value": 20000.0,
-              "value_label": "20000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "대한민국 검찰청",
-          "normalized_keyword": "대한민국 검찰청",
+          "keyword": "토트넘 홋스퍼 fc",
+          "normalized_keyword": "토트넘 홋스퍼 fc",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 4,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "항공 엔진",
-          "normalized_keyword": "항공 엔진",
+          "keyword": "이옥섭",
+          "normalized_keyword": "이옥섭",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "연합뉴스",
-          "normalized_keyword": "연합뉴스",
+          "keyword": "분리수거",
+          "normalized_keyword": "분리수거",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
@@ -221,54 +221,54 @@
           }
         },
         {
-          "keyword": "fat bear",
-          "normalized_keyword": "fat bear",
+          "keyword": "이영표",
+          "normalized_keyword": "이영표",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 7,
+              "value": 10000.0,
+              "value_label": "10000+"
+            }
+          }
+        },
+        {
+          "keyword": "gemini 4",
+          "normalized_keyword": "gemini 4",
+          "first_seen_order": 8,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 8,
               "value": 200.0,
               "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "담배",
-          "normalized_keyword": "담배",
-          "first_seen_order": 8,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 8,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "이동진",
-          "normalized_keyword": "이동진",
+          "keyword": "신승호",
+          "normalized_keyword": "신승호",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "김장",
-          "normalized_keyword": "김장",
+          "keyword": "보험계약",
+          "normalized_keyword": "보험계약",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         }
