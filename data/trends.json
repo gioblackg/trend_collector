@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-02T14:04:04+00:00",
+  "generated_at": "2026-10-02T19:14:14+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,10 +13,65 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "여행",
+              "keyword": "장동혁",
               "rank": 1,
-              "value": 5000.0,
-              "value_label": "5000+",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-02T11:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "프랑스 대 이탈리아",
+              "rank": 2,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-02T10:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "야구",
+              "rank": 3,
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-02T08:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "김민",
+              "rank": 4,
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-02T07:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "최동원",
+              "rank": 5,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-02T06:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "여행",
+              "rank": 6,
+              "value": 20000.0,
+              "value_label": "20000+",
               "published_at": "2026-10-02T05:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
@@ -25,9 +80,9 @@
             },
             {
               "keyword": "진양곤",
-              "rank": 2,
-              "value": 500.0,
-              "value_label": "500+",
+              "rank": 7,
+              "value": 1000.0,
+              "value_label": "1000+",
               "published_at": "2026-10-02T05:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
@@ -36,9 +91,9 @@
             },
             {
               "keyword": "이상순",
-              "rank": 3,
-              "value": 2000.0,
-              "value_label": "2000+",
+              "rank": 8,
+              "value": 5000.0,
+              "value_label": "5000+",
               "published_at": "2026-10-02T04:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
@@ -46,19 +101,8 @@
               }
             },
             {
-              "keyword": "김민수",
-              "rank": 4,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-02T04:30:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
               "keyword": "신랑",
-              "rank": 5,
+              "rank": 9,
               "value": 1000.0,
               "value_label": "1000+",
               "published_at": "2026-10-02T04:10:00-07:00",
@@ -69,54 +113,10 @@
             },
             {
               "keyword": "사우디 아라비아",
-              "rank": 6,
+              "rank": 10,
               "value": 2000.0,
               "value_label": "2000+",
               "published_at": "2026-10-02T04:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "south korea vs venezuela",
-              "rank": 7,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-02T03:40:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "인천국제공항",
-              "rank": 8,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-02T03:40:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "무역수지",
-              "rank": 9,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-02T03:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "한국 대 베네수엘라",
-              "rank": 10,
-              "value": 200000.0,
-              "value_label": "200000+",
-              "published_at": "2026-10-02T03:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,34 +143,34 @@
       },
       "candidates": [
         {
-          "keyword": "여행",
-          "normalized_keyword": "여행",
+          "keyword": "장동혁",
+          "normalized_keyword": "장동혁",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 5000.0,
-              "value_label": "5000+"
-            }
-          }
-        },
-        {
-          "keyword": "진양곤",
-          "normalized_keyword": "진양곤",
-          "first_seen_order": 2,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 2,
               "value": 500.0,
               "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "이상순",
-          "normalized_keyword": "이상순",
+          "keyword": "프랑스 대 이탈리아",
+          "normalized_keyword": "프랑스 대 이탈리아",
+          "first_seen_order": 2,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 2,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "야구",
+          "normalized_keyword": "야구",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
@@ -182,47 +182,47 @@
           }
         },
         {
-          "keyword": "김민수",
-          "normalized_keyword": "김민수",
+          "keyword": "김민",
+          "normalized_keyword": "김민",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 4,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "신랑",
-          "normalized_keyword": "신랑",
-          "first_seen_order": 5,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 5,
-              "value": 1000.0,
-              "value_label": "1000+"
-            }
-          }
-        },
-        {
-          "keyword": "사우디 아라비아",
-          "normalized_keyword": "사우디 아라비아",
-          "first_seen_order": 6,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 6,
               "value": 2000.0,
               "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "south korea vs venezuela",
-          "normalized_keyword": "south korea vs venezuela",
+          "keyword": "최동원",
+          "normalized_keyword": "최동원",
+          "first_seen_order": 5,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 5,
+              "value": 500.0,
+              "value_label": "500+"
+            }
+          }
+        },
+        {
+          "keyword": "여행",
+          "normalized_keyword": "여행",
+          "first_seen_order": 6,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 6,
+              "value": 20000.0,
+              "value_label": "20000+"
+            }
+          }
+        },
+        {
+          "keyword": "진양곤",
+          "normalized_keyword": "진양곤",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
@@ -234,41 +234,41 @@
           }
         },
         {
-          "keyword": "인천국제공항",
-          "normalized_keyword": "인천국제공항",
+          "keyword": "이상순",
+          "normalized_keyword": "이상순",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 5000.0,
+              "value_label": "5000+"
             }
           }
         },
         {
-          "keyword": "무역수지",
-          "normalized_keyword": "무역수지",
+          "keyword": "신랑",
+          "normalized_keyword": "신랑",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "한국 대 베네수엘라",
-          "normalized_keyword": "한국 대 베네수엘라",
+          "keyword": "사우디 아라비아",
+          "normalized_keyword": "사우디 아라비아",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 200000.0,
-              "value_label": "200000+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         }
