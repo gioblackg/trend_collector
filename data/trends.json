@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-02T07:29:49+00:00",
+  "generated_at": "2026-10-02T14:04:04+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "사랑이 온다",
+              "keyword": "여행",
               "rank": 1,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-01T23:00:00-07:00",
+              "value": 5000.0,
+              "value_label": "5000+",
+              "published_at": "2026-10-02T05:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "휴림로봇",
+              "keyword": "진양곤",
               "rank": 2,
               "value": 500.0,
               "value_label": "500+",
-              "published_at": "2026-10-01T22:50:00-07:00",
+              "published_at": "2026-10-02T05:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "풍자",
+              "keyword": "이상순",
               "rank": 3,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-01T22:30:00-07:00",
+              "published_at": "2026-10-02T04:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "오세훈",
+              "keyword": "김민수",
               "rank": 4,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-01T22:10:00-07:00",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-02T04:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "더중앙플러스",
+              "keyword": "신랑",
               "rank": 5,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-10-01T21:50:00-07:00",
+              "published_at": "2026-10-02T04:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "조보아",
+              "keyword": "사우디 아라비아",
               "rank": 6,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-01T21:20:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "개천절",
-              "rank": 7,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-01T21:20:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "박장범",
-              "rank": 8,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-01T21:10:00-07:00",
+              "published_at": "2026-10-02T04:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "아시안게임 롤",
+              "keyword": "south korea vs venezuela",
+              "rank": 7,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-02T03:40:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "인천국제공항",
+              "rank": 8,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-02T03:40:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "무역수지",
               "rank": 9,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-01T21:10:00-07:00",
+              "published_at": "2026-10-02T03:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "포수",
+              "keyword": "한국 대 베네수엘라",
               "rank": 10,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-01T20:50:00-07:00",
+              "value": 200000.0,
+              "value_label": "200000+",
+              "published_at": "2026-10-02T03:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,21 +143,21 @@
       },
       "candidates": [
         {
-          "keyword": "사랑이 온다",
-          "normalized_keyword": "사랑이 온다",
+          "keyword": "여행",
+          "normalized_keyword": "여행",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 5000.0,
+              "value_label": "5000+"
             }
           }
         },
         {
-          "keyword": "휴림로봇",
-          "normalized_keyword": "휴림로봇",
+          "keyword": "진양곤",
+          "normalized_keyword": "진양곤",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
@@ -169,8 +169,8 @@
           }
         },
         {
-          "keyword": "풍자",
-          "normalized_keyword": "풍자",
+          "keyword": "이상순",
+          "normalized_keyword": "이상순",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
@@ -182,21 +182,21 @@
           }
         },
         {
-          "keyword": "오세훈",
-          "normalized_keyword": "오세훈",
+          "keyword": "김민수",
+          "normalized_keyword": "김민수",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 4,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "더중앙플러스",
-          "normalized_keyword": "더중앙플러스",
+          "keyword": "신랑",
+          "normalized_keyword": "신랑",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
@@ -208,47 +208,47 @@
           }
         },
         {
-          "keyword": "조보아",
-          "normalized_keyword": "조보아",
+          "keyword": "사우디 아라비아",
+          "normalized_keyword": "사우디 아라비아",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 6,
-              "value": 1000.0,
-              "value_label": "1000+"
-            }
-          }
-        },
-        {
-          "keyword": "개천절",
-          "normalized_keyword": "개천절",
-          "first_seen_order": 7,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 7,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "박장범",
-          "normalized_keyword": "박장범",
-          "first_seen_order": 8,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 8,
               "value": 2000.0,
               "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "아시안게임 롤",
-          "normalized_keyword": "아시안게임 롤",
+          "keyword": "south korea vs venezuela",
+          "normalized_keyword": "south korea vs venezuela",
+          "first_seen_order": 7,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 7,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "인천국제공항",
+          "normalized_keyword": "인천국제공항",
+          "first_seen_order": 8,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 8,
+              "value": 500.0,
+              "value_label": "500+"
+            }
+          }
+        },
+        {
+          "keyword": "무역수지",
+          "normalized_keyword": "무역수지",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
@@ -260,15 +260,15 @@
           }
         },
         {
-          "keyword": "포수",
-          "normalized_keyword": "포수",
+          "keyword": "한국 대 베네수엘라",
+          "normalized_keyword": "한국 대 베네수엘라",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 200000.0,
+              "value_label": "200000+"
             }
           }
         }
