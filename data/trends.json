@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-03T01:53:59+00:00",
+  "generated_at": "2026-10-03T07:38:21+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "천위페이",
+              "keyword": "정청래",
               "rank": 1,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-02T17:10:00-07:00",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-02T23:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "sri lanka vs bangladesh",
+              "keyword": "서장훈",
               "rank": 2,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-02T17:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "콜레스테롤",
-              "rank": 3,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-02T17:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "개천절",
-              "rank": 4,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-02T16:20:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "최준희",
-              "rank": 5,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-02T16:10:00-07:00",
+              "published_at": "2026-10-02T23:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "한화 이글스",
+              "keyword": "sk하이닉스",
+              "rank": 3,
+              "value": 10000.0,
+              "value_label": "10000+",
+              "published_at": "2026-10-02T22:40:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "형사",
+              "rank": 4,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-02T22:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "호텔 인터불고 엑스코",
+              "rank": 5,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-02T22:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "보이콧",
               "rank": 6,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-02T15:50:00-07:00",
+              "value": 5000.0,
+              "value_label": "5000+",
+              "published_at": "2026-10-02T22:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "박 2일",
+              "keyword": "노벨상",
               "rank": 7,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-02T15:20:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-02T21:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "김구라",
+              "keyword": "티빙",
               "rank": 8,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-02T15:10:00-07:00",
+              "published_at": "2026-10-02T21:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "문가영",
+              "keyword": "하하",
               "rank": 9,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-02T15:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "보그",
-              "rank": 10,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-02T15:10:00-07:00",
+              "published_at": "2026-10-02T21:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "이천수",
+              "rank": 10,
+              "value": 200000.0,
+              "value_label": "200000+",
+              "published_at": "2026-10-02T21:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,99 +143,99 @@
       },
       "candidates": [
         {
-          "keyword": "천위페이",
-          "normalized_keyword": "천위페이",
+          "keyword": "정청래",
+          "normalized_keyword": "정청래",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "sri lanka vs bangladesh",
-          "normalized_keyword": "sri lanka vs bangladesh",
+          "keyword": "서장훈",
+          "normalized_keyword": "서장훈",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 2,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "콜레스테롤",
-          "normalized_keyword": "콜레스테롤",
-          "first_seen_order": 3,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 3,
-              "value": 1000.0,
-              "value_label": "1000+"
-            }
-          }
-        },
-        {
-          "keyword": "개천절",
-          "normalized_keyword": "개천절",
-          "first_seen_order": 4,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 4,
-              "value": 1000.0,
-              "value_label": "1000+"
-            }
-          }
-        },
-        {
-          "keyword": "최준희",
-          "normalized_keyword": "최준희",
-          "first_seen_order": 5,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 5,
               "value": 2000.0,
               "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "한화 이글스",
-          "normalized_keyword": "한화 이글스",
+          "keyword": "sk하이닉스",
+          "normalized_keyword": "sk하이닉스",
+          "first_seen_order": 3,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 3,
+              "value": 10000.0,
+              "value_label": "10000+"
+            }
+          }
+        },
+        {
+          "keyword": "형사",
+          "normalized_keyword": "형사",
+          "first_seen_order": 4,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 4,
+              "value": 500.0,
+              "value_label": "500+"
+            }
+          }
+        },
+        {
+          "keyword": "호텔 인터불고 엑스코",
+          "normalized_keyword": "호텔 인터불고 엑스코",
+          "first_seen_order": 5,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 5,
+              "value": 200.0,
+              "value_label": "200+"
+            }
+          }
+        },
+        {
+          "keyword": "보이콧",
+          "normalized_keyword": "보이콧",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 6,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 5000.0,
+              "value_label": "5000+"
             }
           }
         },
         {
-          "keyword": "박 2일",
-          "normalized_keyword": "박 2일",
+          "keyword": "노벨상",
+          "normalized_keyword": "노벨상",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 7,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "김구라",
-          "normalized_keyword": "김구라",
+          "keyword": "티빙",
+          "normalized_keyword": "티빙",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
@@ -247,28 +247,28 @@
           }
         },
         {
-          "keyword": "문가영",
-          "normalized_keyword": "문가영",
+          "keyword": "하하",
+          "normalized_keyword": "하하",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "보그",
-          "normalized_keyword": "보그",
+          "keyword": "이천수",
+          "normalized_keyword": "이천수",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 200000.0,
+              "value_label": "200000+"
             }
           }
         }
