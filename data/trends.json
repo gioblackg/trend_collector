@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-03T16:46:45+00:00",
+  "generated_at": "2026-10-03T19:31:25+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,10 +13,32 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "크로아티아 대 잉글랜드",
+              "keyword": "기안84",
               "rank": 1,
-              "value": 2000.0,
-              "value_label": "2000+",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-03T11:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "croatia vs england",
+              "rank": 2,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-03T08:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "크로아티아 대 잉글랜드",
+              "rank": 3,
+              "value": 5000.0,
+              "value_label": "5000+",
               "published_at": "2026-10-03T08:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
@@ -25,7 +47,7 @@
             },
             {
               "keyword": "인도 대 브라질",
-              "rank": 2,
+              "rank": 4,
               "value": 5000.0,
               "value_label": "5000+",
               "published_at": "2026-10-03T06:40:00-07:00",
@@ -36,7 +58,7 @@
             },
             {
               "keyword": "금융위기",
-              "rank": 3,
+              "rank": 5,
               "value": 200.0,
               "value_label": "200+",
               "published_at": "2026-10-03T05:40:00-07:00",
@@ -47,7 +69,7 @@
             },
             {
               "keyword": "박서진",
-              "rank": 4,
+              "rank": 6,
               "value": 5000.0,
               "value_label": "5000+",
               "published_at": "2026-10-03T05:10:00-07:00",
@@ -58,7 +80,7 @@
             },
             {
               "keyword": "내일 날씨",
-              "rank": 5,
+              "rank": 7,
               "value": 200000.0,
               "value_label": "200000+",
               "published_at": "2026-10-03T04:50:00-07:00",
@@ -69,7 +91,7 @@
             },
             {
               "keyword": "weather tomorrow",
-              "rank": 6,
+              "rank": 8,
               "value": 2000.0,
               "value_label": "2000+",
               "published_at": "2026-10-03T04:50:00-07:00",
@@ -80,7 +102,7 @@
             },
             {
               "keyword": "이주승",
-              "rank": 7,
+              "rank": 9,
               "value": 200.0,
               "value_label": "200+",
               "published_at": "2026-10-03T04:20:00-07:00",
@@ -91,32 +113,10 @@
             },
             {
               "keyword": "mbc",
-              "rank": 8,
+              "rank": 10,
               "value": 200.0,
               "value_label": "200+",
               "published_at": "2026-10-03T04:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "유재석",
-              "rank": 9,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-03T04:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "미스터 서",
-              "rank": 10,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-03T03:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -134,7 +134,7 @@
           "source": "namuwiki",
           "status": "error",
           "items": [],
-          "error": "GET 실패: https://search.namu.wiki/api/ranking / HTTP Error 403: Forbidden",
+          "error": "GET 실패: https://search.namu.wiki/api/ranking / <urlopen error [Errno -2] Name or service not known>",
           "meta": {
             "url": "https://search.namu.wiki/api/ranking",
             "collector": "ranking_api_v1"
@@ -143,47 +143,47 @@
       },
       "candidates": [
         {
-          "keyword": "크로아티아 대 잉글랜드",
-          "normalized_keyword": "크로아티아 대 잉글랜드",
+          "keyword": "기안84",
+          "normalized_keyword": "기안84",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "인도 대 브라질",
-          "normalized_keyword": "인도 대 브라질",
-          "first_seen_order": 2,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 2,
-              "value": 5000.0,
-              "value_label": "5000+"
-            }
-          }
-        },
-        {
-          "keyword": "금융위기",
-          "normalized_keyword": "금융위기",
-          "first_seen_order": 3,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 3,
               "value": 200.0,
               "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "박서진",
-          "normalized_keyword": "박서진",
+          "keyword": "croatia vs england",
+          "normalized_keyword": "croatia vs england",
+          "first_seen_order": 2,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 2,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "크로아티아 대 잉글랜드",
+          "normalized_keyword": "크로아티아 대 잉글랜드",
+          "first_seen_order": 3,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 3,
+              "value": 5000.0,
+              "value_label": "5000+"
+            }
+          }
+        },
+        {
+          "keyword": "인도 대 브라질",
+          "normalized_keyword": "인도 대 브라질",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
@@ -195,13 +195,39 @@
           }
         },
         {
-          "keyword": "내일 날씨",
-          "normalized_keyword": "내일 날씨",
+          "keyword": "금융위기",
+          "normalized_keyword": "금융위기",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
+              "value": 200.0,
+              "value_label": "200+"
+            }
+          }
+        },
+        {
+          "keyword": "박서진",
+          "normalized_keyword": "박서진",
+          "first_seen_order": 6,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 6,
+              "value": 5000.0,
+              "value_label": "5000+"
+            }
+          }
+        },
+        {
+          "keyword": "내일 날씨",
+          "normalized_keyword": "내일 날씨",
+          "first_seen_order": 7,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 7,
               "value": 200000.0,
               "value_label": "200000+"
             }
@@ -210,11 +236,11 @@
         {
           "keyword": "weather tomorrow",
           "normalized_keyword": "weather tomorrow",
-          "first_seen_order": 6,
+          "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 6,
+              "rank": 8,
               "value": 2000.0,
               "value_label": "2000+"
             }
@@ -223,11 +249,11 @@
         {
           "keyword": "이주승",
           "normalized_keyword": "이주승",
-          "first_seen_order": 7,
+          "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 7,
+              "rank": 9,
               "value": 200.0,
               "value_label": "200+"
             }
@@ -236,39 +262,13 @@
         {
           "keyword": "mbc",
           "normalized_keyword": "mbc",
-          "first_seen_order": 8,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 8,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "유재석",
-          "normalized_keyword": "유재석",
-          "first_seen_order": 9,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 9,
-              "value": 1000.0,
-              "value_label": "1000+"
-            }
-          }
-        },
-        {
-          "keyword": "미스터 서",
-          "normalized_keyword": "미스터 서",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         }
