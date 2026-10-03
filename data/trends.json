@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-03T07:38:21+00:00",
+  "generated_at": "2026-10-03T12:43:54+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "정청래",
+              "keyword": "북항친수공원",
               "rank": 1,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-02T23:30:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "서장훈",
-              "rank": 2,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-02T23:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "sk하이닉스",
-              "rank": 3,
               "value": 10000.0,
               "value_label": "10000+",
-              "published_at": "2026-10-02T22:40:00-07:00",
+              "published_at": "2026-10-03T04:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "형사",
-              "rank": 4,
+              "keyword": "이주승",
+              "rank": 2,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-03T04:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "김지수",
+              "rank": 3,
               "value": 500.0,
               "value_label": "500+",
-              "published_at": "2026-10-02T22:30:00-07:00",
+              "published_at": "2026-10-03T04:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "호텔 인터불고 엑스코",
-              "rank": 5,
+              "keyword": "mbc",
+              "rank": 4,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-02T22:20:00-07:00",
+              "published_at": "2026-10-03T04:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "보이콧",
-              "rank": 6,
-              "value": 5000.0,
-              "value_label": "5000+",
-              "published_at": "2026-10-02T22:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "노벨상",
-              "rank": 7,
+              "keyword": "유재석",
+              "rank": 5,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-10-02T21:50:00-07:00",
+              "published_at": "2026-10-03T04:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "티빙",
+              "keyword": "미스터 서",
+              "rank": 6,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-03T03:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "엄지성",
+              "rank": 7,
+              "value": 50000.0,
+              "value_label": "50000+",
+              "published_at": "2026-10-03T03:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "복지",
               "rank": 8,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-02T21:50:00-07:00",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-03T03:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "하하",
+              "keyword": "고현정",
               "rank": 9,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-02T21:50:00-07:00",
+              "value": 10000.0,
+              "value_label": "10000+",
+              "published_at": "2026-10-03T03:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "이천수",
+              "keyword": "치지직",
               "rank": 10,
-              "value": 200000.0,
-              "value_label": "200000+",
-              "published_at": "2026-10-02T21:40:00-07:00",
+              "value": 20000.0,
+              "value_label": "20000+",
+              "published_at": "2026-10-03T03:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,132 +143,132 @@
       },
       "candidates": [
         {
-          "keyword": "정청래",
-          "normalized_keyword": "정청래",
+          "keyword": "북항친수공원",
+          "normalized_keyword": "북항친수공원",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "서장훈",
-          "normalized_keyword": "서장훈",
-          "first_seen_order": 2,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 2,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "sk하이닉스",
-          "normalized_keyword": "sk하이닉스",
-          "first_seen_order": 3,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 3,
               "value": 10000.0,
               "value_label": "10000+"
             }
           }
         },
         {
-          "keyword": "형사",
-          "normalized_keyword": "형사",
-          "first_seen_order": 4,
+          "keyword": "이주승",
+          "normalized_keyword": "이주승",
+          "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 4,
+              "rank": 2,
+              "value": 200.0,
+              "value_label": "200+"
+            }
+          }
+        },
+        {
+          "keyword": "김지수",
+          "normalized_keyword": "김지수",
+          "first_seen_order": 3,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 3,
               "value": 500.0,
               "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "호텔 인터불고 엑스코",
-          "normalized_keyword": "호텔 인터불고 엑스코",
-          "first_seen_order": 5,
+          "keyword": "mbc",
+          "normalized_keyword": "mbc",
+          "first_seen_order": 4,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 5,
+              "rank": 4,
               "value": 200.0,
               "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "보이콧",
-          "normalized_keyword": "보이콧",
-          "first_seen_order": 6,
+          "keyword": "유재석",
+          "normalized_keyword": "유재석",
+          "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 6,
-              "value": 5000.0,
-              "value_label": "5000+"
-            }
-          }
-        },
-        {
-          "keyword": "노벨상",
-          "normalized_keyword": "노벨상",
-          "first_seen_order": 7,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 7,
+              "rank": 5,
               "value": 1000.0,
               "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "티빙",
-          "normalized_keyword": "티빙",
+          "keyword": "미스터 서",
+          "normalized_keyword": "미스터 서",
+          "first_seen_order": 6,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 6,
+              "value": 500.0,
+              "value_label": "500+"
+            }
+          }
+        },
+        {
+          "keyword": "엄지성",
+          "normalized_keyword": "엄지성",
+          "first_seen_order": 7,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 7,
+              "value": 50000.0,
+              "value_label": "50000+"
+            }
+          }
+        },
+        {
+          "keyword": "복지",
+          "normalized_keyword": "복지",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "하하",
-          "normalized_keyword": "하하",
+          "keyword": "고현정",
+          "normalized_keyword": "고현정",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 10000.0,
+              "value_label": "10000+"
             }
           }
         },
         {
-          "keyword": "이천수",
-          "normalized_keyword": "이천수",
+          "keyword": "치지직",
+          "normalized_keyword": "치지직",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 200000.0,
-              "value_label": "200000+"
+              "value": 20000.0,
+              "value_label": "20000+"
             }
           }
         }
