@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-04T07:28:09+00:00",
+  "generated_at": "2026-10-04T13:24:01+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "분만",
+              "keyword": "허미미",
               "rank": 1,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-03T22:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "김상욱",
-              "rank": 2,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-03T22:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "울산바위",
-              "rank": 3,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-10-03T22:20:00-07:00",
+              "published_at": "2026-10-04T05:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "원주 db 대 고양 소노",
+              "keyword": "thời tiết ngày mai",
+              "rank": 2,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-04T05:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "내일 날씨",
+              "rank": 3,
+              "value": 100000.0,
+              "value_label": "100000+",
+              "published_at": "2026-10-04T05:00:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "머스캣",
               "rank": 4,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-03T22:20:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-04T04:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "진중권",
+              "keyword": "weather tomorrow",
               "rank": 5,
-              "value": 5000.0,
-              "value_label": "5000+",
-              "published_at": "2026-10-03T22:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "티빙",
-              "rank": 6,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-03T22:10:00-07:00",
+              "published_at": "2026-10-04T04:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "kia 대 lg",
+              "keyword": "김준호",
+              "rank": 6,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-04T04:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "롯데 자이언츠",
               "rank": 7,
               "value": 20000.0,
               "value_label": "20000+",
-              "published_at": "2026-10-03T22:00:00-07:00",
+              "published_at": "2026-10-04T04:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "두산 대 삼성",
+              "keyword": "유도",
               "rank": 8,
-              "value": 10000.0,
-              "value_label": "10000+",
-              "published_at": "2026-10-03T21:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "키움 대 한화",
-              "rank": 9,
-              "value": 10000.0,
-              "value_label": "10000+",
-              "published_at": "2026-10-03T21:40:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "김민지",
-              "rank": 10,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-10-03T21:30:00-07:00",
+              "published_at": "2026-10-04T04:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "김주하",
+              "rank": 9,
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-04T03:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "최우진",
+              "rank": 10,
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-04T03:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,86 +143,86 @@
       },
       "candidates": [
         {
-          "keyword": "분만",
-          "normalized_keyword": "분만",
+          "keyword": "허미미",
+          "normalized_keyword": "허미미",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "김상욱",
-          "normalized_keyword": "김상욱",
-          "first_seen_order": 2,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 2,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "울산바위",
-          "normalized_keyword": "울산바위",
-          "first_seen_order": 3,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 3,
               "value": 1000.0,
               "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "원주 db 대 고양 소노",
-          "normalized_keyword": "원주 db 대 고양 소노",
+          "keyword": "thời tiết ngày mai",
+          "normalized_keyword": "thời tiết ngày mai",
+          "first_seen_order": 2,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 2,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "내일 날씨",
+          "normalized_keyword": "내일 날씨",
+          "first_seen_order": 3,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 3,
+              "value": 100000.0,
+              "value_label": "100000+"
+            }
+          }
+        },
+        {
+          "keyword": "머스캣",
+          "normalized_keyword": "머스캣",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 4,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "진중권",
-          "normalized_keyword": "진중권",
+          "keyword": "weather tomorrow",
+          "normalized_keyword": "weather tomorrow",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
-              "value": 5000.0,
-              "value_label": "5000+"
-            }
-          }
-        },
-        {
-          "keyword": "티빙",
-          "normalized_keyword": "티빙",
-          "first_seen_order": 6,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 6,
               "value": 2000.0,
               "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "kia 대 lg",
-          "normalized_keyword": "kia 대 lg",
+          "keyword": "김준호",
+          "normalized_keyword": "김준호",
+          "first_seen_order": 6,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 6,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "롯데 자이언츠",
+          "normalized_keyword": "롯데 자이언츠",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
@@ -234,41 +234,41 @@
           }
         },
         {
-          "keyword": "두산 대 삼성",
-          "normalized_keyword": "두산 대 삼성",
+          "keyword": "유도",
+          "normalized_keyword": "유도",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 10000.0,
-              "value_label": "10000+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "키움 대 한화",
-          "normalized_keyword": "키움 대 한화",
+          "keyword": "김주하",
+          "normalized_keyword": "김주하",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 10000.0,
-              "value_label": "10000+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "김민지",
-          "normalized_keyword": "김민지",
+          "keyword": "최우진",
+          "normalized_keyword": "최우진",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         }
