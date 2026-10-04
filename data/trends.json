@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-04T17:45:07+00:00",
+  "generated_at": "2026-10-04T20:29:10+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,8 +13,19 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "김혜자",
+              "keyword": "portugal vs norway",
               "rank": 1,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-04T11:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "김혜자",
+              "rank": 2,
               "value": 200.0,
               "value_label": "200+",
               "published_at": "2026-10-04T08:10:00-07:00",
@@ -25,7 +36,7 @@
             },
             {
               "keyword": "이희진",
-              "rank": 2,
+              "rank": 3,
               "value": 200.0,
               "value_label": "200+",
               "published_at": "2026-10-04T06:20:00-07:00",
@@ -36,7 +47,7 @@
             },
             {
               "keyword": "김희애",
-              "rank": 3,
+              "rank": 4,
               "value": 2000.0,
               "value_label": "2000+",
               "published_at": "2026-10-04T06:10:00-07:00",
@@ -47,9 +58,9 @@
             },
             {
               "keyword": "넷플릭스",
-              "rank": 4,
-              "value": 20000.0,
-              "value_label": "20000+",
+              "rank": 5,
+              "value": 10000.0,
+              "value_label": "10000+",
               "published_at": "2026-10-04T06:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
@@ -58,7 +69,7 @@
             },
             {
               "keyword": "정년",
-              "rank": 5,
+              "rank": 6,
               "value": 5000.0,
               "value_label": "5000+",
               "published_at": "2026-10-04T05:50:00-07:00",
@@ -69,7 +80,7 @@
             },
             {
               "keyword": "과즙세연",
-              "rank": 6,
+              "rank": 7,
               "value": 2000.0,
               "value_label": "2000+",
               "published_at": "2026-10-04T05:40:00-07:00",
@@ -80,7 +91,7 @@
             },
             {
               "keyword": "기능사",
-              "rank": 7,
+              "rank": 8,
               "value": 2000.0,
               "value_label": "2000+",
               "published_at": "2026-10-04T05:20:00-07:00",
@@ -91,17 +102,6 @@
             },
             {
               "keyword": "허미미",
-              "rank": 8,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-04T05:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "thời tiết ngày mai",
               "rank": 9,
               "value": 1000.0,
               "value_label": "1000+",
@@ -112,11 +112,11 @@
               }
             },
             {
-              "keyword": "내일 날씨",
+              "keyword": "thời tiết ngày mai",
               "rank": 10,
-              "value": 100000.0,
-              "value_label": "100000+",
-              "published_at": "2026-10-04T05:00:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-04T05:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,21 +143,21 @@
       },
       "candidates": [
         {
-          "keyword": "김혜자",
-          "normalized_keyword": "김혜자",
+          "keyword": "portugal vs norway",
+          "normalized_keyword": "portugal vs norway",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "이희진",
-          "normalized_keyword": "이희진",
+          "keyword": "김혜자",
+          "normalized_keyword": "김혜자",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
@@ -169,13 +169,26 @@
           }
         },
         {
-          "keyword": "김희애",
-          "normalized_keyword": "김희애",
+          "keyword": "이희진",
+          "normalized_keyword": "이희진",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 3,
+              "value": 200.0,
+              "value_label": "200+"
+            }
+          }
+        },
+        {
+          "keyword": "김희애",
+          "normalized_keyword": "김희애",
+          "first_seen_order": 4,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 4,
               "value": 2000.0,
               "value_label": "2000+"
             }
@@ -184,24 +197,24 @@
         {
           "keyword": "넷플릭스",
           "normalized_keyword": "넷플릭스",
-          "first_seen_order": 4,
+          "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 4,
-              "value": 20000.0,
-              "value_label": "20000+"
+              "rank": 5,
+              "value": 10000.0,
+              "value_label": "10000+"
             }
           }
         },
         {
           "keyword": "정년",
           "normalized_keyword": "정년",
-          "first_seen_order": 5,
+          "first_seen_order": 6,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 5,
+              "rank": 6,
               "value": 5000.0,
               "value_label": "5000+"
             }
@@ -210,19 +223,6 @@
         {
           "keyword": "과즙세연",
           "normalized_keyword": "과즙세연",
-          "first_seen_order": 6,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 6,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "기능사",
-          "normalized_keyword": "기능사",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
@@ -234,21 +234,21 @@
           }
         },
         {
-          "keyword": "허미미",
-          "normalized_keyword": "허미미",
+          "keyword": "기능사",
+          "normalized_keyword": "기능사",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "thời tiết ngày mai",
-          "normalized_keyword": "thời tiết ngày mai",
+          "keyword": "허미미",
+          "normalized_keyword": "허미미",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
@@ -260,15 +260,15 @@
           }
         },
         {
-          "keyword": "내일 날씨",
-          "normalized_keyword": "내일 날씨",
+          "keyword": "thời tiết ngày mai",
+          "normalized_keyword": "thời tiết ngày mai",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 100000.0,
-              "value_label": "100000+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         }
