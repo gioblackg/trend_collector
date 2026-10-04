@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-04T01:49:28+00:00",
+  "generated_at": "2026-10-04T07:28:09+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "띠별 운세",
+              "keyword": "분만",
               "rank": 1,
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-03T22:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "김상욱",
+              "rank": 2,
               "value": 500.0,
               "value_label": "500+",
-              "published_at": "2026-10-03T17:30:00-07:00",
+              "published_at": "2026-10-03T22:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "argentina vs burkina faso",
-              "rank": 2,
+              "keyword": "울산바위",
+              "rank": 3,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-03T22:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "원주 db 대 고양 소노",
+              "rank": 4,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-03T22:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "진중권",
+              "rank": 5,
+              "value": 5000.0,
+              "value_label": "5000+",
+              "published_at": "2026-10-03T22:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "티빙",
+              "rank": 6,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-03T16:50:00-07:00",
+              "published_at": "2026-10-03T22:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "아르헨티나 대 부르키나파소",
-              "rank": 3,
+              "keyword": "kia 대 lg",
+              "rank": 7,
+              "value": 20000.0,
+              "value_label": "20000+",
+              "published_at": "2026-10-03T22:00:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "두산 대 삼성",
+              "rank": 8,
               "value": 10000.0,
               "value_label": "10000+",
-              "published_at": "2026-10-03T16:20:00-07:00",
+              "published_at": "2026-10-03T21:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "충돌",
-              "rank": 4,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-03T16:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "오타니 쇼헤이",
-              "rank": 5,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-03T16:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "보그",
-              "rank": 6,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-03T16:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "현대 투싼",
-              "rank": 7,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-03T16:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "퇴직",
-              "rank": 8,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-03T16:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "김하성",
+              "keyword": "키움 대 한화",
               "rank": 9,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-03T16:00:00-07:00",
+              "value": 10000.0,
+              "value_label": "10000+",
+              "published_at": "2026-10-03T21:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "테슬라",
+              "keyword": "김민지",
               "rank": 10,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-10-03T15:50:00-07:00",
+              "published_at": "2026-10-03T21:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,125 +143,125 @@
       },
       "candidates": [
         {
-          "keyword": "띠별 운세",
-          "normalized_keyword": "띠별 운세",
+          "keyword": "분만",
+          "normalized_keyword": "분만",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
+              "value": 2000.0,
+              "value_label": "2000+"
+            }
+          }
+        },
+        {
+          "keyword": "김상욱",
+          "normalized_keyword": "김상욱",
+          "first_seen_order": 2,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 2,
               "value": 500.0,
               "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "argentina vs burkina faso",
-          "normalized_keyword": "argentina vs burkina faso",
-          "first_seen_order": 2,
+          "keyword": "울산바위",
+          "normalized_keyword": "울산바위",
+          "first_seen_order": 3,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 2,
+              "rank": 3,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "원주 db 대 고양 소노",
+          "normalized_keyword": "원주 db 대 고양 소노",
+          "first_seen_order": 4,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 4,
+              "value": 200.0,
+              "value_label": "200+"
+            }
+          }
+        },
+        {
+          "keyword": "진중권",
+          "normalized_keyword": "진중권",
+          "first_seen_order": 5,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 5,
+              "value": 5000.0,
+              "value_label": "5000+"
+            }
+          }
+        },
+        {
+          "keyword": "티빙",
+          "normalized_keyword": "티빙",
+          "first_seen_order": 6,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 6,
               "value": 2000.0,
               "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "아르헨티나 대 부르키나파소",
-          "normalized_keyword": "아르헨티나 대 부르키나파소",
-          "first_seen_order": 3,
+          "keyword": "kia 대 lg",
+          "normalized_keyword": "kia 대 lg",
+          "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 3,
+              "rank": 7,
+              "value": 20000.0,
+              "value_label": "20000+"
+            }
+          }
+        },
+        {
+          "keyword": "두산 대 삼성",
+          "normalized_keyword": "두산 대 삼성",
+          "first_seen_order": 8,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 8,
               "value": 10000.0,
               "value_label": "10000+"
             }
           }
         },
         {
-          "keyword": "충돌",
-          "normalized_keyword": "충돌",
-          "first_seen_order": 4,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 4,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "오타니 쇼헤이",
-          "normalized_keyword": "오타니 쇼헤이",
-          "first_seen_order": 5,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 5,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "보그",
-          "normalized_keyword": "보그",
-          "first_seen_order": 6,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 6,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "현대 투싼",
-          "normalized_keyword": "현대 투싼",
-          "first_seen_order": 7,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 7,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "퇴직",
-          "normalized_keyword": "퇴직",
-          "first_seen_order": 8,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 8,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "김하성",
-          "normalized_keyword": "김하성",
+          "keyword": "키움 대 한화",
+          "normalized_keyword": "키움 대 한화",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 10000.0,
+              "value_label": "10000+"
             }
           }
         },
         {
-          "keyword": "테슬라",
-          "normalized_keyword": "테슬라",
+          "keyword": "김민지",
+          "normalized_keyword": "김민지",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
