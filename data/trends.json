@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-04T23:31:49+00:00",
+  "generated_at": "2026-10-05T02:22:16+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,11 +13,99 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "나는 solo",
+              "keyword": "면허",
               "rank": 1,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-10-04T15:20:00-07:00",
+              "published_at": "2026-10-04T17:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "브레이브스 대 다저스",
+              "rank": 2,
+              "value": 10000.0,
+              "value_label": "10000+",
+              "published_at": "2026-10-04T17:00:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "김준현",
+              "rank": 3,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-04T17:00:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "황재균",
+              "rank": 4,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-04T16:40:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "미운 우리 새끼",
+              "rank": 5,
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-04T16:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "김성근",
+              "rank": 6,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-04T16:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "구속",
+              "rank": 7,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-04T16:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "교사",
+              "rank": 8,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-04T16:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "lpga",
+              "rank": 9,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-04T16:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -25,98 +113,10 @@
             },
             {
               "keyword": "임신",
-              "rank": 2,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-04T15:20:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "0일의 거짓말",
-              "rank": 3,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-04T15:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "조현아",
-              "rank": 4,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-04T15:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "초과근무",
-              "rank": 5,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-04T15:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "검사",
-              "rank": 6,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-04T15:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "비트코인",
-              "rank": 7,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-04T14:40:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "금",
-              "rank": 8,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-04T14:30:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "삼전 닉스",
-              "rank": 9,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-04T14:30:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "눈사태",
               "rank": 10,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-04T14:30:00-07:00",
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-04T15:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,8 +143,8 @@
       },
       "candidates": [
         {
-          "keyword": "나는 solo",
-          "normalized_keyword": "나는 solo",
+          "keyword": "면허",
+          "normalized_keyword": "면허",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
@@ -156,34 +156,34 @@
           }
         },
         {
-          "keyword": "임신",
-          "normalized_keyword": "임신",
+          "keyword": "브레이브스 대 다저스",
+          "normalized_keyword": "브레이브스 대 다저스",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 2,
+              "value": 10000.0,
+              "value_label": "10000+"
+            }
+          }
+        },
+        {
+          "keyword": "김준현",
+          "normalized_keyword": "김준현",
+          "first_seen_order": 3,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 3,
               "value": 200.0,
               "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "0일의 거짓말",
-          "normalized_keyword": "일의 거짓말",
-          "first_seen_order": 3,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 3,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "조현아",
-          "normalized_keyword": "조현아",
+          "keyword": "황재균",
+          "normalized_keyword": "황재균",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
@@ -195,80 +195,80 @@
           }
         },
         {
-          "keyword": "초과근무",
-          "normalized_keyword": "초과근무",
+          "keyword": "미운 우리 새끼",
+          "normalized_keyword": "미운 우리 새끼",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "검사",
-          "normalized_keyword": "검사",
+          "keyword": "김성근",
+          "normalized_keyword": "김성근",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 6,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "비트코인",
-          "normalized_keyword": "비트코인",
+          "keyword": "구속",
+          "normalized_keyword": "구속",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 7,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "금",
-          "normalized_keyword": "금",
+          "keyword": "교사",
+          "normalized_keyword": "교사",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "삼전 닉스",
-          "normalized_keyword": "삼전 닉스",
+          "keyword": "lpga",
+          "normalized_keyword": "lpga",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "눈사태",
-          "normalized_keyword": "눈사태",
+          "keyword": "임신",
+          "normalized_keyword": "임신",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         }
