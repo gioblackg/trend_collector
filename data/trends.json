@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-05T09:28:21+00:00",
+  "generated_at": "2026-10-05T18:46:45+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "김태규",
+              "keyword": "치어리더",
               "rank": 1,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-05T01:20:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "실종자",
-              "rank": 2,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-05T01:20:00-07:00",
+              "published_at": "2026-10-05T06:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "전국노래자랑",
-              "rank": 3,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-05T01:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "리센느",
-              "rank": 4,
+              "keyword": "노바크 조코비치",
+              "rank": 2,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-10-05T01:00:00-07:00",
+              "published_at": "2026-10-05T05:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "유해진",
-              "rank": 5,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-05T00:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "카를로스 알카라스",
-              "rank": 6,
+              "keyword": "김현태",
+              "rank": 3,
               "value": 5000.0,
               "value_label": "5000+",
-              "published_at": "2026-10-05T00:50:00-07:00",
+              "published_at": "2026-10-05T03:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "대전문화방송",
-              "rank": 7,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-05T00:30:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "띠별 운세",
-              "rank": 8,
+              "keyword": "이수영",
+              "rank": 4,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-05T00:00:00-07:00",
+              "published_at": "2026-10-05T03:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "폭격기",
-              "rank": 9,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-04T23:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "한동훈",
-              "rank": 10,
+              "keyword": "윤이나",
+              "rank": 5,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-10-04T23:20:00-07:00",
+              "published_at": "2026-10-05T03:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "전원주",
+              "rank": 6,
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-05T03:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "지뢰",
+              "rank": 7,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-05T03:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "트럭",
+              "rank": 8,
+              "value": 5000.0,
+              "value_label": "5000+",
+              "published_at": "2026-10-05T02:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "밤",
+              "rank": 9,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-05T02:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "스테이 블코 인",
+              "rank": 10,
+              "value": 10000.0,
+              "value_label": "10000+",
+              "published_at": "2026-10-05T02:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,132 +143,132 @@
       },
       "candidates": [
         {
-          "keyword": "김태규",
-          "normalized_keyword": "김태규",
+          "keyword": "치어리더",
+          "normalized_keyword": "치어리더",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "실종자",
-          "normalized_keyword": "실종자",
-          "first_seen_order": 2,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 2,
               "value": 200.0,
               "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "전국노래자랑",
-          "normalized_keyword": "전국노래자랑",
-          "first_seen_order": 3,
+          "keyword": "노바크 조코비치",
+          "normalized_keyword": "노바크 조코비치",
+          "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 3,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "리센느",
-          "normalized_keyword": "리센느",
-          "first_seen_order": 4,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 4,
+              "rank": 2,
               "value": 1000.0,
               "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "유해진",
-          "normalized_keyword": "유해진",
-          "first_seen_order": 5,
+          "keyword": "김현태",
+          "normalized_keyword": "김현태",
+          "first_seen_order": 3,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 5,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "카를로스 알카라스",
-          "normalized_keyword": "카를로스 알카라스",
-          "first_seen_order": 6,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 6,
+              "rank": 3,
               "value": 5000.0,
               "value_label": "5000+"
             }
           }
         },
         {
-          "keyword": "대전문화방송",
-          "normalized_keyword": "대전문화방송",
+          "keyword": "이수영",
+          "normalized_keyword": "이수영",
+          "first_seen_order": 4,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 4,
+              "value": 2000.0,
+              "value_label": "2000+"
+            }
+          }
+        },
+        {
+          "keyword": "윤이나",
+          "normalized_keyword": "윤이나",
+          "first_seen_order": 5,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 5,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "전원주",
+          "normalized_keyword": "전원주",
+          "first_seen_order": 6,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 6,
+              "value": 2000.0,
+              "value_label": "2000+"
+            }
+          }
+        },
+        {
+          "keyword": "지뢰",
+          "normalized_keyword": "지뢰",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 7,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "트럭",
+          "normalized_keyword": "트럭",
+          "first_seen_order": 8,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 8,
+              "value": 5000.0,
+              "value_label": "5000+"
+            }
+          }
+        },
+        {
+          "keyword": "밤",
+          "normalized_keyword": "밤",
+          "first_seen_order": 9,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 9,
               "value": 500.0,
               "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "띠별 운세",
-          "normalized_keyword": "띠별 운세",
-          "first_seen_order": 8,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 8,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "폭격기",
-          "normalized_keyword": "폭격기",
-          "first_seen_order": 9,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 9,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "한동훈",
-          "normalized_keyword": "한동훈",
+          "keyword": "스테이 블코 인",
+          "normalized_keyword": "스테이 블코 인",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 10000.0,
+              "value_label": "10000+"
             }
           }
         }
