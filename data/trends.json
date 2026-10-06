@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-06T06:41:47+00:00",
+  "generated_at": "2026-10-06T13:40:00+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "주식",
+              "keyword": "야구 순위",
               "rank": 1,
-              "value": 10000.0,
-              "value_label": "10000+",
-              "published_at": "2026-10-05T22:20:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-06T05:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "식이",
+              "keyword": "태풍 고구마",
               "rank": 2,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-05T22:00:00-07:00",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-06T05:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "jyp엔터테인먼트",
+              "keyword": "나이키",
               "rank": 3,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-10-05T21:30:00-07:00",
+              "published_at": "2026-10-06T05:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "퇴직금",
+              "keyword": "횡성한우축제",
               "rank": 4,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-05T20:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "nba",
-              "rank": 5,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-05T20:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "홍역",
-              "rank": 6,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-05T20:00:00-07:00",
+              "published_at": "2026-10-06T04:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "강신철",
+              "keyword": "노바크 조코비치",
+              "rank": 5,
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-06T04:40:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "xrp",
+              "rank": 6,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-06T04:40:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "tvn",
               "rank": 7,
-              "value": 5000.0,
-              "value_label": "5000+",
-              "published_at": "2026-10-05T19:30:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-06T04:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "티빙",
+              "keyword": "삼성 갤럭시",
               "rank": 8,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-05T19:30:00-07:00",
+              "published_at": "2026-10-06T04:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "김종민",
+              "keyword": "южная корея – узбекистан",
               "rank": 9,
-              "value": 5000.0,
-              "value_label": "5000+",
-              "published_at": "2026-10-05T19:20:00-07:00",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-06T04:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "차경은",
+              "keyword": "south korea vs uzbekistan",
               "rank": 10,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-05T18:50:00-07:00",
+              "published_at": "2026-10-06T04:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,34 +143,34 @@
       },
       "candidates": [
         {
-          "keyword": "주식",
-          "normalized_keyword": "주식",
+          "keyword": "야구 순위",
+          "normalized_keyword": "야구 순위",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 10000.0,
-              "value_label": "10000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "식이",
-          "normalized_keyword": "식이",
+          "keyword": "태풍 고구마",
+          "normalized_keyword": "태풍 고구마",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 2,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "jyp엔터테인먼트",
-          "normalized_keyword": "jyp엔터테인먼트",
+          "keyword": "나이키",
+          "normalized_keyword": "나이키",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
@@ -182,60 +182,60 @@
           }
         },
         {
-          "keyword": "퇴직금",
-          "normalized_keyword": "퇴직금",
+          "keyword": "횡성한우축제",
+          "normalized_keyword": "횡성한우축제",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 4,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "nba",
-          "normalized_keyword": "nba",
-          "first_seen_order": 5,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 5,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "홍역",
-          "normalized_keyword": "홍역",
-          "first_seen_order": 6,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 6,
               "value": 2000.0,
               "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "강신철",
-          "normalized_keyword": "강신철",
+          "keyword": "노바크 조코비치",
+          "normalized_keyword": "노바크 조코비치",
+          "first_seen_order": 5,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 5,
+              "value": 2000.0,
+              "value_label": "2000+"
+            }
+          }
+        },
+        {
+          "keyword": "xrp",
+          "normalized_keyword": "xrp",
+          "first_seen_order": 6,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 6,
+              "value": 1000.0,
+              "value_label": "1000+"
+            }
+          }
+        },
+        {
+          "keyword": "tvn",
+          "normalized_keyword": "tvn",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 7,
-              "value": 5000.0,
-              "value_label": "5000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "티빙",
-          "normalized_keyword": "티빙",
+          "keyword": "삼성 갤럭시",
+          "normalized_keyword": "삼성 갤럭시",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
@@ -247,21 +247,21 @@
           }
         },
         {
-          "keyword": "김종민",
-          "normalized_keyword": "김종민",
+          "keyword": "южная корея – узбекистан",
+          "normalized_keyword": "южная корея – узбекистан",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 5000.0,
-              "value_label": "5000+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "차경은",
-          "normalized_keyword": "차경은",
+          "keyword": "south korea vs uzbekistan",
+          "normalized_keyword": "south korea vs uzbekistan",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
