@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-05T18:46:45+00:00",
+  "generated_at": "2026-10-06T00:23:23+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "치어리더",
+              "keyword": "이자",
               "rank": 1,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-05T06:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "노바크 조코비치",
-              "rank": 2,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-05T05:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "김현태",
-              "rank": 3,
-              "value": 5000.0,
-              "value_label": "5000+",
-              "published_at": "2026-10-05T03:40:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "이수영",
-              "rank": 4,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-05T03:30:00-07:00",
+              "published_at": "2026-10-05T16:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "윤이나",
+              "keyword": "송강",
+              "rank": 2,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-05T16:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "유승민",
+              "rank": 3,
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-05T16:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "백악관 대변인",
+              "rank": 4,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-05T15:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "tsla",
               "rank": 5,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-05T03:10:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-05T15:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "전원주",
+              "keyword": "중앙일보",
               "rank": 6,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-05T03:10:00-07:00",
+              "published_at": "2026-10-05T14:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "지뢰",
+              "keyword": "남편",
               "rank": 7,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-10-05T03:10:00-07:00",
+              "published_at": "2026-10-05T14:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "트럭",
+              "keyword": "청라하늘대교",
               "rank": 8,
-              "value": 5000.0,
-              "value_label": "5000+",
-              "published_at": "2026-10-05T02:30:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-05T14:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "밤",
+              "keyword": "이희진",
               "rank": 9,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-05T02:30:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-05T14:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "스테이 블코 인",
+              "keyword": "nvda",
               "rank": 10,
-              "value": 10000.0,
-              "value_label": "10000+",
-              "published_at": "2026-10-05T02:20:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-05T14:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,73 +143,73 @@
       },
       "candidates": [
         {
-          "keyword": "치어리더",
-          "normalized_keyword": "치어리더",
+          "keyword": "이자",
+          "normalized_keyword": "이자",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "노바크 조코비치",
-          "normalized_keyword": "노바크 조코비치",
-          "first_seen_order": 2,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 2,
-              "value": 1000.0,
-              "value_label": "1000+"
-            }
-          }
-        },
-        {
-          "keyword": "김현태",
-          "normalized_keyword": "김현태",
-          "first_seen_order": 3,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 3,
-              "value": 5000.0,
-              "value_label": "5000+"
-            }
-          }
-        },
-        {
-          "keyword": "이수영",
-          "normalized_keyword": "이수영",
-          "first_seen_order": 4,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 4,
               "value": 2000.0,
               "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "윤이나",
-          "normalized_keyword": "윤이나",
+          "keyword": "송강",
+          "normalized_keyword": "송강",
+          "first_seen_order": 2,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 2,
+              "value": 500.0,
+              "value_label": "500+"
+            }
+          }
+        },
+        {
+          "keyword": "유승민",
+          "normalized_keyword": "유승민",
+          "first_seen_order": 3,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 3,
+              "value": 100.0,
+              "value_label": "100+"
+            }
+          }
+        },
+        {
+          "keyword": "백악관 대변인",
+          "normalized_keyword": "백악관 대변인",
+          "first_seen_order": 4,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 4,
+              "value": 500.0,
+              "value_label": "500+"
+            }
+          }
+        },
+        {
+          "keyword": "tsla",
+          "normalized_keyword": "tsla",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "전원주",
-          "normalized_keyword": "전원주",
+          "keyword": "중앙일보",
+          "normalized_keyword": "중앙일보",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
@@ -221,8 +221,8 @@
           }
         },
         {
-          "keyword": "지뢰",
-          "normalized_keyword": "지뢰",
+          "keyword": "남편",
+          "normalized_keyword": "남편",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
@@ -234,41 +234,41 @@
           }
         },
         {
-          "keyword": "트럭",
-          "normalized_keyword": "트럭",
+          "keyword": "청라하늘대교",
+          "normalized_keyword": "청라하늘대교",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 5000.0,
-              "value_label": "5000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "밤",
-          "normalized_keyword": "밤",
+          "keyword": "이희진",
+          "normalized_keyword": "이희진",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "스테이 블코 인",
-          "normalized_keyword": "스테이 블코 인",
+          "keyword": "nvda",
+          "normalized_keyword": "nvda",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 10000.0,
-              "value_label": "10000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         }
