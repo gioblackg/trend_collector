@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-07T15:49:31+00:00",
+  "generated_at": "2026-10-07T20:49:57+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,10 +13,87 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "로또 1등도 출근합니다",
+              "keyword": "암",
               "rank": 1,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-07T12:40:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "서울 수도권",
+              "rank": 2,
               "value": 200.0,
               "value_label": "200+",
+              "published_at": "2026-10-07T12:40:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "역주행",
+              "rank": 3,
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-07T12:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "숙행",
+              "rank": 4,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-07T11:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "박지원",
+              "rank": 5,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-07T11:40:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "백령도",
+              "rank": 6,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-07T11:00:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "world space week 2026",
+              "rank": 7,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-07T09:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "로또 1등도 출근합니다",
+              "rank": 8,
+              "value": 500.0,
+              "value_label": "500+",
               "published_at": "2026-10-07T07:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
@@ -25,98 +102,10 @@
             },
             {
               "keyword": "대학",
-              "rank": 2,
+              "rank": 10,
               "value": 2000.0,
               "value_label": "2000+",
               "published_at": "2026-10-07T07:20:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "지현 원규",
-              "rank": 3,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-07T07:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "송승기",
-              "rank": 4,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-07T07:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "피의자",
-              "rank": 5,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-07T06:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "한겨레",
-              "rank": 6,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-07T06:30:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "김지원",
-              "rank": 7,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-07T06:30:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "정용진",
-              "rank": 8,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-07T06:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "투자",
-              "rank": 9,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-07T06:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "경기도지사",
-              "rank": 10,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-07T06:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,34 +132,34 @@
       },
       "candidates": [
         {
-          "keyword": "로또 1등도 출근합니다",
-          "normalized_keyword": "로또 1등도 출근합니다",
+          "keyword": "암",
+          "normalized_keyword": "암",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
+              "value": 500.0,
+              "value_label": "500+"
+            }
+          }
+        },
+        {
+          "keyword": "서울 수도권",
+          "normalized_keyword": "서울 수도권",
+          "first_seen_order": 2,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 2,
               "value": 200.0,
               "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "대학",
-          "normalized_keyword": "대학",
-          "first_seen_order": 2,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 2,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "지현 원규",
-          "normalized_keyword": "지현 원규",
+          "keyword": "역주행",
+          "normalized_keyword": "역주행",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
@@ -182,21 +171,21 @@
           }
         },
         {
-          "keyword": "송승기",
-          "normalized_keyword": "송승기",
+          "keyword": "숙행",
+          "normalized_keyword": "숙행",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 4,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "피의자",
-          "normalized_keyword": "피의자",
+          "keyword": "박지원",
+          "normalized_keyword": "박지원",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
@@ -208,67 +197,54 @@
           }
         },
         {
-          "keyword": "한겨레",
-          "normalized_keyword": "한겨레",
+          "keyword": "백령도",
+          "normalized_keyword": "백령도",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 6,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "김지원",
-          "normalized_keyword": "김지원",
-          "first_seen_order": 7,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 7,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "정용진",
-          "normalized_keyword": "정용진",
-          "first_seen_order": 8,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 8,
               "value": 200.0,
               "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "투자",
-          "normalized_keyword": "투자",
-          "first_seen_order": 9,
+          "keyword": "world space week 2026",
+          "normalized_keyword": "world space week 2026",
+          "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 9,
+              "rank": 7,
               "value": 1000.0,
               "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "경기도지사",
-          "normalized_keyword": "경기도지사",
-          "first_seen_order": 10,
+          "keyword": "로또 1등도 출근합니다",
+          "normalized_keyword": "로또 1등도 출근합니다",
+          "first_seen_order": 8,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 8,
+              "value": 500.0,
+              "value_label": "500+"
+            }
+          }
+        },
+        {
+          "keyword": "대학",
+          "normalized_keyword": "대학",
+          "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         }
