@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-06T23:00:02+00:00",
+  "generated_at": "2026-10-07T02:14:46+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "제네시스 g80",
+              "keyword": "전국체육대회",
               "rank": 1,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-06T14:50:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-06T18:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "청년미래적금",
+              "keyword": "브루노 페르난데스",
               "rank": 2,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-06T14:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "백하나",
-              "rank": 3,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-06T14:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "리사",
-              "rank": 4,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-06T14:40:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "서희원",
-              "rank": 5,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-10-06T14:40:00-07:00",
+              "published_at": "2026-10-06T17:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "이대호",
+              "keyword": "이휘향",
+              "rank": 3,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-06T17:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "카드뉴스",
+              "rank": 4,
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-06T17:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "구글 플레이",
+              "rank": 5,
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-06T17:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "기상청 날씨누리",
               "rank": 6,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-06T14:30:00-07:00",
+              "published_at": "2026-10-06T17:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "상장폐지",
+              "keyword": "엘리스그룹",
               "rank": 7,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-06T14:30:00-07:00",
+              "published_at": "2026-10-06T17:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "다저스 대 브레이브스",
+              "keyword": "김혜자",
               "rank": 8,
-              "value": 5000.0,
-              "value_label": "5000+",
-              "published_at": "2026-10-06T14:20:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "음식",
-              "rank": 9,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-06T14:20:00-07:00",
+              "published_at": "2026-10-06T16:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "문희준",
+              "keyword": "논쟁",
+              "rank": 9,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-06T16:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "부산은행",
               "rank": 10,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-06T14:20:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-06T16:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,73 +143,73 @@
       },
       "candidates": [
         {
-          "keyword": "제네시스 g80",
-          "normalized_keyword": "제네시스 g80",
+          "keyword": "전국체육대회",
+          "normalized_keyword": "전국체육대회",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "청년미래적금",
-          "normalized_keyword": "청년미래적금",
+          "keyword": "브루노 페르난데스",
+          "normalized_keyword": "브루노 페르난데스",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 2,
-              "value": 100.0,
-              "value_label": "100+"
-            }
-          }
-        },
-        {
-          "keyword": "백하나",
-          "normalized_keyword": "백하나",
-          "first_seen_order": 3,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 3,
-              "value": 100.0,
-              "value_label": "100+"
-            }
-          }
-        },
-        {
-          "keyword": "리사",
-          "normalized_keyword": "리사",
-          "first_seen_order": 4,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 4,
-              "value": 2000.0,
-              "value_label": "2000+"
-            }
-          }
-        },
-        {
-          "keyword": "서희원",
-          "normalized_keyword": "서희원",
-          "first_seen_order": 5,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 5,
               "value": 1000.0,
               "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "이대호",
-          "normalized_keyword": "이대호",
+          "keyword": "이휘향",
+          "normalized_keyword": "이휘향",
+          "first_seen_order": 3,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 3,
+              "value": 200.0,
+              "value_label": "200+"
+            }
+          }
+        },
+        {
+          "keyword": "카드뉴스",
+          "normalized_keyword": "카드뉴스",
+          "first_seen_order": 4,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 4,
+              "value": 100.0,
+              "value_label": "100+"
+            }
+          }
+        },
+        {
+          "keyword": "구글 플레이",
+          "normalized_keyword": "구글 플레이",
+          "first_seen_order": 5,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 5,
+              "value": 100.0,
+              "value_label": "100+"
+            }
+          }
+        },
+        {
+          "keyword": "기상청 날씨누리",
+          "normalized_keyword": "기상청 날씨누리",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
@@ -221,8 +221,8 @@
           }
         },
         {
-          "keyword": "상장폐지",
-          "normalized_keyword": "상장폐지",
+          "keyword": "엘리스그룹",
+          "normalized_keyword": "엘리스그룹",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
@@ -234,41 +234,41 @@
           }
         },
         {
-          "keyword": "다저스 대 브레이브스",
-          "normalized_keyword": "다저스 대 브레이브스",
+          "keyword": "김혜자",
+          "normalized_keyword": "김혜자",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 5000.0,
-              "value_label": "5000+"
-            }
-          }
-        },
-        {
-          "keyword": "음식",
-          "normalized_keyword": "음식",
-          "first_seen_order": 9,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 9,
               "value": 2000.0,
               "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "문희준",
-          "normalized_keyword": "문희준",
+          "keyword": "논쟁",
+          "normalized_keyword": "논쟁",
+          "first_seen_order": 9,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 9,
+              "value": 500.0,
+              "value_label": "500+"
+            }
+          }
+        },
+        {
+          "keyword": "부산은행",
+          "normalized_keyword": "부산은행",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         }
