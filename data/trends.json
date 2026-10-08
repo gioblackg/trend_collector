@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-08T06:33:37+00:00",
+  "generated_at": "2026-10-08T13:59:27+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "전투기",
+              "keyword": "로맥",
               "rank": 1,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-07T22:30:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-08T05:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "육아",
+              "keyword": "박지훈",
               "rank": 2,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-07T22:10:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-08T05:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "김영옥",
+              "keyword": "이데일리",
               "rank": 3,
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-08T05:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "김영광",
+              "rank": 4,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-07T22:00:00-07:00",
+              "published_at": "2026-10-08T05:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "중국",
-              "rank": 4,
-              "value": 5000.0,
-              "value_label": "5000+",
-              "published_at": "2026-10-07T21:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "도쿄도",
+              "keyword": "하이마트",
               "rank": 5,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-07T21:40:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-08T04:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "압구정동",
+              "keyword": "anne carson",
               "rank": 6,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-07T21:40:00-07:00",
+              "published_at": "2026-10-08T04:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "기 신도시",
+              "keyword": "차량 화재",
               "rank": 7,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-07T21:40:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-08T04:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "t.o.p",
+              "keyword": "범죄",
               "rank": 8,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-07T21:20:00-07:00",
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-08T04:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "피싱",
+              "keyword": "앤 카슨",
               "rank": 9,
               "value": 5000.0,
               "value_label": "5000+",
-              "published_at": "2026-10-07T21:10:00-07:00",
+              "published_at": "2026-10-08T04:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "김선영",
+              "keyword": "현대 투싼",
               "rank": 10,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-07T21:10:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-08T04:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,73 +143,73 @@
       },
       "candidates": [
         {
-          "keyword": "전투기",
-          "normalized_keyword": "전투기",
+          "keyword": "로맥",
+          "normalized_keyword": "로맥",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "육아",
-          "normalized_keyword": "육아",
+          "keyword": "박지훈",
+          "normalized_keyword": "박지훈",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 2,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "김영옥",
-          "normalized_keyword": "김영옥",
+          "keyword": "이데일리",
+          "normalized_keyword": "이데일리",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 3,
+              "value": 100.0,
+              "value_label": "100+"
+            }
+          }
+        },
+        {
+          "keyword": "김영광",
+          "normalized_keyword": "김영광",
+          "first_seen_order": 4,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 4,
               "value": 200.0,
               "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "중국",
-          "normalized_keyword": "중국",
-          "first_seen_order": 4,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 4,
-              "value": 5000.0,
-              "value_label": "5000+"
-            }
-          }
-        },
-        {
-          "keyword": "도쿄도",
-          "normalized_keyword": "도쿄도",
+          "keyword": "하이마트",
+          "normalized_keyword": "하이마트",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "압구정동",
-          "normalized_keyword": "압구정동",
+          "keyword": "anne carson",
+          "normalized_keyword": "anne carson",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
@@ -221,34 +221,34 @@
           }
         },
         {
-          "keyword": "기 신도시",
-          "normalized_keyword": "기 신도시",
+          "keyword": "차량 화재",
+          "normalized_keyword": "차량 화재",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 7,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "t.o.p",
-          "normalized_keyword": "t.o.p",
+          "keyword": "범죄",
+          "normalized_keyword": "범죄",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "피싱",
-          "normalized_keyword": "피싱",
+          "keyword": "앤 카슨",
+          "normalized_keyword": "앤 카슨",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
@@ -260,15 +260,15 @@
           }
         },
         {
-          "keyword": "김선영",
-          "normalized_keyword": "김선영",
+          "keyword": "현대 투싼",
+          "normalized_keyword": "현대 투싼",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         }
