@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-08T19:48:46+00:00",
+  "generated_at": "2026-10-08T23:59:40+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "군사작전",
+              "keyword": "해피투게더",
               "rank": 1,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-08T09:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "쿠팡",
-              "rank": 2,
-              "value": 20000.0,
-              "value_label": "20000+",
-              "published_at": "2026-10-08T08:40:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "ps",
-              "rank": 3,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-08T08:30:00-07:00",
+              "published_at": "2026-10-08T15:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "아리엘 후라도",
+              "keyword": "류필립",
+              "rank": 2,
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-08T15:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "박현경",
+              "rank": 3,
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-08T15:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "김승윤",
               "rank": 4,
               "value": 100.0,
               "value_label": "100+",
-              "published_at": "2026-10-08T07:00:00-07:00",
+              "published_at": "2026-10-08T15:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "수면제",
+              "keyword": "월9일",
               "rank": 5,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-08T15:40:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "자동차",
+              "rank": 6,
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-08T15:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "이수만",
+              "rank": 7,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-08T15:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "독소",
+              "rank": 8,
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-08T15:00:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "농협은행",
+              "rank": 9,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-08T14:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "tqqq",
+              "rank": 10,
               "value": 100.0,
               "value_label": "100+",
-              "published_at": "2026-10-08T06:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "병목",
-              "rank": 6,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-08T06:20:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "마이클 버리",
-              "rank": 7,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-08T06:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "채널a",
-              "rank": 8,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-08T06:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "식중독",
-              "rank": 9,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-08T06:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "로맥",
-              "rank": 10,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-08T05:50:00-07:00",
+              "published_at": "2026-10-08T14:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,47 +143,47 @@
       },
       "candidates": [
         {
-          "keyword": "군사작전",
-          "normalized_keyword": "군사작전",
+          "keyword": "해피투게더",
+          "normalized_keyword": "해피투게더",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 1000.0,
-              "value_label": "1000+"
-            }
-          }
-        },
-        {
-          "keyword": "쿠팡",
-          "normalized_keyword": "쿠팡",
-          "first_seen_order": 2,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 2,
-              "value": 20000.0,
-              "value_label": "20000+"
-            }
-          }
-        },
-        {
-          "keyword": "ps",
-          "normalized_keyword": "ps",
-          "first_seen_order": 3,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 3,
               "value": 200.0,
               "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "아리엘 후라도",
-          "normalized_keyword": "아리엘 후라도",
+          "keyword": "류필립",
+          "normalized_keyword": "류필립",
+          "first_seen_order": 2,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 2,
+              "value": 100.0,
+              "value_label": "100+"
+            }
+          }
+        },
+        {
+          "keyword": "박현경",
+          "normalized_keyword": "박현경",
+          "first_seen_order": 3,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 3,
+              "value": 100.0,
+              "value_label": "100+"
+            }
+          }
+        },
+        {
+          "keyword": "김승윤",
+          "normalized_keyword": "김승윤",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
@@ -195,80 +195,80 @@
           }
         },
         {
-          "keyword": "수면제",
-          "normalized_keyword": "수면제",
+          "keyword": "월9일",
+          "normalized_keyword": "월9일",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "병목",
-          "normalized_keyword": "병목",
+          "keyword": "자동차",
+          "normalized_keyword": "자동차",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 6,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "마이클 버리",
-          "normalized_keyword": "마이클 버리",
+          "keyword": "이수만",
+          "normalized_keyword": "이수만",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 7,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "채널a",
-          "normalized_keyword": "채널a",
+          "keyword": "독소",
+          "normalized_keyword": "독소",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "식중독",
-          "normalized_keyword": "식중독",
+          "keyword": "농협은행",
+          "normalized_keyword": "농협은행",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "로맥",
-          "normalized_keyword": "로맥",
+          "keyword": "tqqq",
+          "normalized_keyword": "tqqq",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         }
