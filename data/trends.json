@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-09T12:44:32+00:00",
+  "generated_at": "2026-10-09T18:32:30+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "환자 안전",
+              "keyword": "김신영",
               "rank": 1,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-09T04:40:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-09T08:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "신민아",
+              "keyword": "구창모",
               "rank": 2,
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-09T07:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "판결",
+              "rank": 3,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-09T04:40:00-07:00",
+              "published_at": "2026-10-09T07:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "우정잉",
-              "rank": 3,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-09T04:30:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "성과급",
+              "keyword": "광주광역시",
               "rank": 4,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-09T07:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "암호화폐",
+              "rank": 5,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-10-09T04:10:00-07:00",
+              "published_at": "2026-10-09T07:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "김상식",
-              "rank": 5,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-09T04:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "트로트",
+              "keyword": "제니",
               "rank": 6,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-09T04:00:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-09T06:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "민형배",
+              "keyword": "김현",
               "rank": 7,
               "value": 500.0,
               "value_label": "500+",
-              "published_at": "2026-10-09T03:40:00-07:00",
+              "published_at": "2026-10-09T06:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "전라남도",
+              "keyword": "부유세",
               "rank": 8,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-09T03:30:00-07:00",
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-09T06:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "로봇",
+              "keyword": "sri lanka vs pakistan",
               "rank": 9,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-09T03:20:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-09T06:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "노바크 조코비치",
+              "keyword": "sbs",
               "rank": 10,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-09T03:20:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-09T06:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,86 +143,86 @@
       },
       "candidates": [
         {
-          "keyword": "환자 안전",
-          "normalized_keyword": "환자 안전",
+          "keyword": "김신영",
+          "normalized_keyword": "김신영",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "신민아",
-          "normalized_keyword": "신민아",
+          "keyword": "구창모",
+          "normalized_keyword": "구창모",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 2,
+              "value": 100.0,
+              "value_label": "100+"
+            }
+          }
+        },
+        {
+          "keyword": "판결",
+          "normalized_keyword": "판결",
+          "first_seen_order": 3,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 3,
               "value": 200.0,
               "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "우정잉",
-          "normalized_keyword": "우정잉",
-          "first_seen_order": 3,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 3,
-              "value": 100.0,
-              "value_label": "100+"
-            }
-          }
-        },
-        {
-          "keyword": "성과급",
-          "normalized_keyword": "성과급",
+          "keyword": "광주광역시",
+          "normalized_keyword": "광주광역시",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 4,
+              "value": 200.0,
+              "value_label": "200+"
+            }
+          }
+        },
+        {
+          "keyword": "암호화폐",
+          "normalized_keyword": "암호화폐",
+          "first_seen_order": 5,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 5,
               "value": 1000.0,
               "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "김상식",
-          "normalized_keyword": "김상식",
-          "first_seen_order": 5,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 5,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "트로트",
-          "normalized_keyword": "트로트",
+          "keyword": "제니",
+          "normalized_keyword": "제니",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 6,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "민형배",
-          "normalized_keyword": "민형배",
+          "keyword": "김현",
+          "normalized_keyword": "김현",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
@@ -234,41 +234,41 @@
           }
         },
         {
-          "keyword": "전라남도",
-          "normalized_keyword": "전라남도",
+          "keyword": "부유세",
+          "normalized_keyword": "부유세",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "로봇",
-          "normalized_keyword": "로봇",
+          "keyword": "sri lanka vs pakistan",
+          "normalized_keyword": "sri lanka vs pakistan",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "노바크 조코비치",
-          "normalized_keyword": "노바크 조코비치",
+          "keyword": "sbs",
+          "normalized_keyword": "sbs",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         }
