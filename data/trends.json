@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-08T23:59:40+00:00",
+  "generated_at": "2026-10-09T05:55:56+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "해피투게더",
+              "keyword": "수원fc 대 화성",
               "rank": 1,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-08T15:50:00-07:00",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-08T21:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "류필립",
+              "keyword": "고독사",
               "rank": 2,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-08T15:50:00-07:00",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-08T21:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "박현경",
+              "keyword": "한국항공우주산업",
               "rank": 3,
               "value": 100.0,
               "value_label": "100+",
-              "published_at": "2026-10-08T15:50:00-07:00",
+              "published_at": "2026-10-08T21:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "김승윤",
+              "keyword": "lg 대 롯데",
               "rank": 4,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-08T15:40:00-07:00",
+              "value": 5000.0,
+              "value_label": "5000+",
+              "published_at": "2026-10-08T21:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "월9일",
+              "keyword": "k리그1",
               "rank": 5,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-08T15:40:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "자동차",
-              "rank": 6,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-08T15:30:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "이수만",
-              "rank": 7,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-08T15:10:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "독소",
-              "rank": 8,
-              "value": 2000.0,
-              "value_label": "2000+",
-              "published_at": "2026-10-08T15:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "농협은행",
-              "rank": 9,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-08T14:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "tqqq",
-              "rank": 10,
               "value": 100.0,
               "value_label": "100+",
-              "published_at": "2026-10-08T14:50:00-07:00",
+              "published_at": "2026-10-08T21:10:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "kia 대 nc",
+              "rank": 6,
+              "value": 20000.0,
+              "value_label": "20000+",
+              "published_at": "2026-10-08T21:00:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "삼성 대 ssg",
+              "rank": 7,
+              "value": 10000.0,
+              "value_label": "10000+",
+              "published_at": "2026-10-08T21:00:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "배트맨",
+              "rank": 8,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-08T21:00:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "lg유플러스",
+              "rank": 9,
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-08T20:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "한국갤럽",
+              "rank": 10,
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-08T20:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,34 +143,34 @@
       },
       "candidates": [
         {
-          "keyword": "해피투게더",
-          "normalized_keyword": "해피투게더",
+          "keyword": "수원fc 대 화성",
+          "normalized_keyword": "수원fc 대 화성",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "류필립",
-          "normalized_keyword": "류필립",
+          "keyword": "고독사",
+          "normalized_keyword": "고독사",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 2,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "박현경",
-          "normalized_keyword": "박현경",
+          "keyword": "한국항공우주산업",
+          "normalized_keyword": "한국항공우주산업",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
@@ -182,93 +182,93 @@
           }
         },
         {
-          "keyword": "김승윤",
-          "normalized_keyword": "김승윤",
+          "keyword": "lg 대 롯데",
+          "normalized_keyword": "lg 대 롯데",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 4,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 5000.0,
+              "value_label": "5000+"
             }
           }
         },
         {
-          "keyword": "월9일",
-          "normalized_keyword": "월9일",
+          "keyword": "k리그1",
+          "normalized_keyword": "k리그1",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "자동차",
-          "normalized_keyword": "자동차",
+          "keyword": "kia 대 nc",
+          "normalized_keyword": "kia 대 nc",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 6,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 20000.0,
+              "value_label": "20000+"
             }
           }
         },
         {
-          "keyword": "이수만",
-          "normalized_keyword": "이수만",
+          "keyword": "삼성 대 ssg",
+          "normalized_keyword": "삼성 대 ssg",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 7,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 10000.0,
+              "value_label": "10000+"
             }
           }
         },
         {
-          "keyword": "독소",
-          "normalized_keyword": "독소",
+          "keyword": "배트맨",
+          "normalized_keyword": "배트맨",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "농협은행",
-          "normalized_keyword": "농협은행",
+          "keyword": "lg유플러스",
+          "normalized_keyword": "lg유플러스",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "tqqq",
-          "normalized_keyword": "tqqq",
+          "keyword": "한국갤럽",
+          "normalized_keyword": "한국갤럽",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         }
