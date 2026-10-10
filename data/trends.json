@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-10T02:06:58+00:00",
+  "generated_at": "2026-10-10T08:26:49+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "롯데온",
+              "keyword": "구준엽",
               "rank": 1,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-09T17:50:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-10T00:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "고영욱",
+              "keyword": "ssg 대 kia",
               "rank": 2,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-09T17:20:00-07:00",
+              "value": 10000.0,
+              "value_label": "10000+",
+              "published_at": "2026-10-10T00:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "동맹",
+              "keyword": "nc 대 한화",
               "rank": 3,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-09T17:20:00-07:00",
+              "value": 5000.0,
+              "value_label": "5000+",
+              "published_at": "2026-10-10T00:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "관광지",
+              "keyword": "오타니 쇼헤이",
               "rank": 4,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-09T17:10:00-07:00",
+              "published_at": "2026-10-09T23:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "매일경제신문",
+              "keyword": "bangladesh vs afghanistan",
               "rank": 5,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-09T16:40:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "어린이대공원",
-              "rank": 6,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-09T16:40:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "al nassr",
-              "rank": 7,
               "value": 100.0,
               "value_label": "100+",
-              "published_at": "2026-10-09T16:20:00-07:00",
+              "published_at": "2026-10-09T23:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "서동주",
+              "keyword": "역사 왜곡",
+              "rank": 6,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-09T23:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "톰 홀랜드",
+              "rank": 7,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-09T23:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "국제 통화 기금",
               "rank": 8,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-09T23:20:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "졸음 운전",
+              "rank": 9,
+              "value": 2000.0,
+              "value_label": "2000+",
+              "published_at": "2026-10-09T22:30:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "박종훈",
+              "rank": 10,
               "value": 1000.0,
               "value_label": "1000+",
-              "published_at": "2026-10-09T15:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "여수세계박람회장",
-              "rank": 9,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-09T15:50:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "반려견",
-              "rank": 10,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-09T15:50:00-07:00",
+              "published_at": "2026-10-09T22:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,47 +143,47 @@
       },
       "candidates": [
         {
-          "keyword": "롯데온",
-          "normalized_keyword": "롯데온",
+          "keyword": "구준엽",
+          "normalized_keyword": "구준엽",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "고영욱",
-          "normalized_keyword": "고영욱",
+          "keyword": "ssg 대 kia",
+          "normalized_keyword": "ssg 대 kia",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 2,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 10000.0,
+              "value_label": "10000+"
             }
           }
         },
         {
-          "keyword": "동맹",
-          "normalized_keyword": "동맹",
+          "keyword": "nc 대 한화",
+          "normalized_keyword": "nc 대 한화",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 3,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 5000.0,
+              "value_label": "5000+"
             }
           }
         },
         {
-          "keyword": "관광지",
-          "normalized_keyword": "관광지",
+          "keyword": "오타니 쇼헤이",
+          "normalized_keyword": "오타니 쇼헤이",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
@@ -195,80 +195,80 @@
           }
         },
         {
-          "keyword": "매일경제신문",
-          "normalized_keyword": "매일경제신문",
+          "keyword": "bangladesh vs afghanistan",
+          "normalized_keyword": "bangladesh vs afghanistan",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
-              "value": 1000.0,
-              "value_label": "1000+"
-            }
-          }
-        },
-        {
-          "keyword": "어린이대공원",
-          "normalized_keyword": "어린이대공원",
-          "first_seen_order": 6,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 6,
-              "value": 500.0,
-              "value_label": "500+"
-            }
-          }
-        },
-        {
-          "keyword": "al nassr",
-          "normalized_keyword": "al nassr",
-          "first_seen_order": 7,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 7,
               "value": 100.0,
               "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "서동주",
-          "normalized_keyword": "서동주",
+          "keyword": "역사 왜곡",
+          "normalized_keyword": "역사 왜곡",
+          "first_seen_order": 6,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 6,
+              "value": 200.0,
+              "value_label": "200+"
+            }
+          }
+        },
+        {
+          "keyword": "톰 홀랜드",
+          "normalized_keyword": "톰 홀랜드",
+          "first_seen_order": 7,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 7,
+              "value": 200.0,
+              "value_label": "200+"
+            }
+          }
+        },
+        {
+          "keyword": "국제 통화 기금",
+          "normalized_keyword": "국제 통화 기금",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "여수세계박람회장",
-          "normalized_keyword": "여수세계박람회장",
+          "keyword": "졸음 운전",
+          "normalized_keyword": "졸음 운전",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 9,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 2000.0,
+              "value_label": "2000+"
             }
           }
         },
         {
-          "keyword": "반려견",
-          "normalized_keyword": "반려견",
+          "keyword": "박종훈",
+          "normalized_keyword": "박종훈",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         }
