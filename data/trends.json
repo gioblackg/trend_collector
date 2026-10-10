@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-10T14:37:27+00:00",
+  "generated_at": "2026-10-10T18:50:28+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "chelsea vs bournemouth",
+              "keyword": "man utd vs tottenham",
               "rank": 1,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-10T06:30:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-10T09:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "augsburg vs bayern",
+              "keyword": "스포츠 중계",
               "rank": 2,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-10T06:30:00-07:00",
+              "published_at": "2026-10-10T09:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "ngoại hạng anh",
+              "keyword": "แมนยู พบ สเปอร์ส",
               "rank": 3,
               "value": 500.0,
               "value_label": "500+",
-              "published_at": "2026-10-10T06:30:00-07:00",
+              "published_at": "2026-10-10T09:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "알라베스 대 아틀레티코",
+              "keyword": "man utd đấu với tottenham",
               "rank": 4,
-              "value": 10000.0,
-              "value_label": "10000+",
-              "published_at": "2026-10-10T06:20:00-07:00",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-10T09:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "첼시 대 본머스",
+              "keyword": "논술",
               "rank": 5,
-              "value": 5000.0,
-              "value_label": "5000+",
-              "published_at": "2026-10-10T06:10:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-10T09:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "at마드리드",
+              "keyword": "la liga",
               "rank": 6,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-10T06:10:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-10T09:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "아우크스부르크 대 바이에른",
+              "keyword": "man utd vs spurs",
               "rank": 7,
-              "value": 10000.0,
-              "value_label": "10000+",
-              "published_at": "2026-10-10T05:40:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "로또1245",
-              "rank": 8,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-10T05:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "울산광역시",
-              "rank": 9,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-10T05:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "환경일보",
-              "rank": 10,
               "value": 2000.0,
               "value_label": "2000+",
-              "published_at": "2026-10-10T04:50:00-07:00",
+              "published_at": "2026-10-10T08:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "브라이튼",
+              "rank": 8,
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-10T08:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "바르셀로나 대 헤타페",
+              "rank": 9,
+              "value": 5000.0,
+              "value_label": "5000+",
+              "published_at": "2026-10-10T08:40:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "barcelona vs getafe",
+              "rank": 10,
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-10T08:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,21 +143,21 @@
       },
       "candidates": [
         {
-          "keyword": "chelsea vs bournemouth",
-          "normalized_keyword": "chelsea vs bournemouth",
+          "keyword": "man utd vs tottenham",
+          "normalized_keyword": "man utd vs tottenham",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "augsburg vs bayern",
-          "normalized_keyword": "augsburg vs bayern",
+          "keyword": "스포츠 중계",
+          "normalized_keyword": "스포츠 중계",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
@@ -169,8 +169,8 @@
           }
         },
         {
-          "keyword": "ngoại hạng anh",
-          "normalized_keyword": "ngoại hạng anh",
+          "keyword": "แมนยู พบ สเปอร์ส",
+          "normalized_keyword": "แมนยู พบ สเปอร์ส",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
@@ -182,93 +182,93 @@
           }
         },
         {
-          "keyword": "알라베스 대 아틀레티코",
-          "normalized_keyword": "알라베스 대 아틀레티코",
+          "keyword": "man utd đấu với tottenham",
+          "normalized_keyword": "man utd đấu với tottenham",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 4,
-              "value": 10000.0,
-              "value_label": "10000+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "첼시 대 본머스",
-          "normalized_keyword": "첼시 대 본머스",
+          "keyword": "논술",
+          "normalized_keyword": "논술",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
+              "value": 100.0,
+              "value_label": "100+"
+            }
+          }
+        },
+        {
+          "keyword": "la liga",
+          "normalized_keyword": "la liga",
+          "first_seen_order": 6,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 6,
+              "value": 100.0,
+              "value_label": "100+"
+            }
+          }
+        },
+        {
+          "keyword": "man utd vs spurs",
+          "normalized_keyword": "man utd vs spurs",
+          "first_seen_order": 7,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 7,
+              "value": 2000.0,
+              "value_label": "2000+"
+            }
+          }
+        },
+        {
+          "keyword": "브라이튼",
+          "normalized_keyword": "브라이튼",
+          "first_seen_order": 8,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 8,
+              "value": 100.0,
+              "value_label": "100+"
+            }
+          }
+        },
+        {
+          "keyword": "바르셀로나 대 헤타페",
+          "normalized_keyword": "바르셀로나 대 헤타페",
+          "first_seen_order": 9,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 9,
               "value": 5000.0,
               "value_label": "5000+"
             }
           }
         },
         {
-          "keyword": "at마드리드",
-          "normalized_keyword": "at마드리드",
-          "first_seen_order": 6,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 6,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "아우크스부르크 대 바이에른",
-          "normalized_keyword": "아우크스부르크 대 바이에른",
-          "first_seen_order": 7,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 7,
-              "value": 10000.0,
-              "value_label": "10000+"
-            }
-          }
-        },
-        {
-          "keyword": "로또1245",
-          "normalized_keyword": "로또1245",
-          "first_seen_order": 8,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 8,
-              "value": 1000.0,
-              "value_label": "1000+"
-            }
-          }
-        },
-        {
-          "keyword": "울산광역시",
-          "normalized_keyword": "울산광역시",
-          "first_seen_order": 9,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 9,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "환경일보",
-          "normalized_keyword": "환경일보",
+          "keyword": "barcelona vs getafe",
+          "normalized_keyword": "barcelona vs getafe",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 2000.0,
-              "value_label": "2000+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         }
