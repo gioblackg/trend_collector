@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-09T22:52:53+00:00",
+  "generated_at": "2026-10-10T02:06:58+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,110 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "다우 존스 산업평균지수",
+              "keyword": "롯데온",
               "rank": 1,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-09T14:50:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-09T17:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "아침",
+              "keyword": "고영욱",
               "rank": 2,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-09T14:40:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-09T17:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "포스코",
+              "keyword": "동맹",
               "rank": 3,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-09T14:30:00-07:00",
+              "value": 100.0,
+              "value_label": "100+",
+              "published_at": "2026-10-09T17:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "흡연",
+              "keyword": "관광지",
               "rank": 4,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-09T14:20:00-07:00",
+              "published_at": "2026-10-09T17:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "삼성전자",
+              "keyword": "매일경제신문",
               "rank": 5,
-              "value": 5000.0,
-              "value_label": "5000+",
-              "published_at": "2026-10-09T14:20:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-09T16:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "강선영",
+              "keyword": "어린이대공원",
               "rank": 6,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-09T14:20:00-07:00",
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-09T16:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "문보경",
+              "keyword": "al nassr",
               "rank": 7,
               "value": 100.0,
               "value_label": "100+",
-              "published_at": "2026-10-09T14:20:00-07:00",
+              "published_at": "2026-10-09T16:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "생계",
+              "keyword": "서동주",
               "rank": 8,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-09T14:20:00-07:00",
+              "value": 1000.0,
+              "value_label": "1000+",
+              "published_at": "2026-10-09T15:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "주진우",
+              "keyword": "여수세계박람회장",
               "rank": 9,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-09T14:10:00-07:00",
+              "published_at": "2026-10-09T15:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "김종민",
+              "keyword": "반려견",
               "rank": 10,
-              "value": 500.0,
-              "value_label": "500+",
-              "published_at": "2026-10-09T14:00:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-09T15:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,47 +143,47 @@
       },
       "candidates": [
         {
-          "keyword": "다우 존스 산업평균지수",
-          "normalized_keyword": "다우 존스 산업평균지수",
+          "keyword": "롯데온",
+          "normalized_keyword": "롯데온",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "아침",
-          "normalized_keyword": "아침",
+          "keyword": "고영욱",
+          "normalized_keyword": "고영욱",
           "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 2,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "포스코",
-          "normalized_keyword": "포스코",
+          "keyword": "동맹",
+          "normalized_keyword": "동맹",
           "first_seen_order": 3,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 3,
-              "value": 200.0,
-              "value_label": "200+"
+              "value": 100.0,
+              "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "흡연",
-          "normalized_keyword": "흡연",
+          "keyword": "관광지",
+          "normalized_keyword": "관광지",
           "first_seen_order": 4,
           "source_count": 1,
           "sources": {
@@ -195,34 +195,34 @@
           }
         },
         {
-          "keyword": "삼성전자",
-          "normalized_keyword": "삼성전자",
+          "keyword": "매일경제신문",
+          "normalized_keyword": "매일경제신문",
           "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 5,
-              "value": 5000.0,
-              "value_label": "5000+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "강선영",
-          "normalized_keyword": "강선영",
+          "keyword": "어린이대공원",
+          "normalized_keyword": "어린이대공원",
           "first_seen_order": 6,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 6,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "문보경",
-          "normalized_keyword": "문보경",
+          "keyword": "al nassr",
+          "normalized_keyword": "al nassr",
           "first_seen_order": 7,
           "source_count": 1,
           "sources": {
@@ -234,21 +234,21 @@
           }
         },
         {
-          "keyword": "생계",
-          "normalized_keyword": "생계",
+          "keyword": "서동주",
+          "normalized_keyword": "서동주",
           "first_seen_order": 8,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 8,
-              "value": 100.0,
-              "value_label": "100+"
+              "value": 1000.0,
+              "value_label": "1000+"
             }
           }
         },
         {
-          "keyword": "주진우",
-          "normalized_keyword": "주진우",
+          "keyword": "여수세계박람회장",
+          "normalized_keyword": "여수세계박람회장",
           "first_seen_order": 9,
           "source_count": 1,
           "sources": {
@@ -260,15 +260,15 @@
           }
         },
         {
-          "keyword": "김종민",
-          "normalized_keyword": "김종민",
+          "keyword": "반려견",
+          "normalized_keyword": "반려견",
           "first_seen_order": 10,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 500.0,
-              "value_label": "500+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         }
