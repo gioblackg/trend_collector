@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "collector_version": "0.2.0",
-  "generated_at": "2026-10-10T22:14:02+00:00",
+  "generated_at": "2026-10-11T01:02:47+00:00",
   "categories": {
     "search": {
       "status": "partial",
@@ -13,110 +13,99 @@
           "status": "ok",
           "items": [
             {
-              "keyword": "남편",
+              "keyword": "강선우",
               "rank": 1,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-10T14:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "미디어오늘",
-              "rank": 2,
-              "value": 200.0,
-              "value_label": "200+",
-              "published_at": "2026-10-10T14:00:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "이민정",
-              "rank": 3,
               "value": 500.0,
               "value_label": "500+",
-              "published_at": "2026-10-10T13:50:00-07:00",
+              "published_at": "2026-10-10T16:50:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "홍준표",
+              "keyword": "inter miami vs d.c. united",
+              "rank": 2,
+              "value": 500.0,
+              "value_label": "500+",
+              "published_at": "2026-10-10T16:40:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "신진서",
               "rank": 4,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-10T13:50:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-10T16:30:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "madrid vs villarreal",
+              "keyword": "나루토",
               "rank": 5,
               "value": 100.0,
               "value_label": "100+",
-              "published_at": "2026-10-10T13:40:00-07:00",
+              "published_at": "2026-10-10T16:20:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "일본 엔",
+              "keyword": "서장훈의 이웃집 백만장자",
               "rank": 6,
               "value": 100.0,
               "value_label": "100+",
-              "published_at": "2026-10-10T13:20:00-07:00",
+              "published_at": "2026-10-10T16:10:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "real madrid",
+              "keyword": "월스트리트 저널",
               "rank": 7,
-              "value": 100.0,
-              "value_label": "100+",
-              "published_at": "2026-10-10T13:20:00-07:00",
-              "url": "https://trends.google.com/trending/rss?geo=KR",
-              "meta": {
-                "source_role": "candidate_discovery"
-              }
-            },
-            {
-              "keyword": "이언주",
-              "rank": 8,
               "value": 200.0,
               "value_label": "200+",
-              "published_at": "2026-10-10T13:10:00-07:00",
+              "published_at": "2026-10-10T16:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "공직",
-              "rank": 9,
+              "keyword": "원자력",
+              "rank": 8,
               "value": 100.0,
               "value_label": "100+",
-              "published_at": "2026-10-10T12:40:00-07:00",
+              "published_at": "2026-10-10T16:00:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
               }
             },
             {
-              "keyword": "민도희",
+              "keyword": "사관학교",
+              "rank": 9,
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-10T15:50:00-07:00",
+              "url": "https://trends.google.com/trending/rss?geo=KR",
+              "meta": {
+                "source_role": "candidate_discovery"
+              }
+            },
+            {
+              "keyword": "mls",
               "rank": 10,
-              "value": 1000.0,
-              "value_label": "1000+",
-              "published_at": "2026-10-10T12:20:00-07:00",
+              "value": 200.0,
+              "value_label": "200+",
+              "published_at": "2026-10-10T15:40:00-07:00",
               "url": "https://trends.google.com/trending/rss?geo=KR",
               "meta": {
                 "source_role": "candidate_discovery"
@@ -143,61 +132,48 @@
       },
       "candidates": [
         {
-          "keyword": "남편",
-          "normalized_keyword": "남편",
+          "keyword": "강선우",
+          "normalized_keyword": "강선우",
           "first_seen_order": 1,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 1,
-              "value": 1000.0,
-              "value_label": "1000+"
-            }
-          }
-        },
-        {
-          "keyword": "미디어오늘",
-          "normalized_keyword": "미디어오늘",
-          "first_seen_order": 2,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 2,
-              "value": 200.0,
-              "value_label": "200+"
-            }
-          }
-        },
-        {
-          "keyword": "이민정",
-          "normalized_keyword": "이민정",
-          "first_seen_order": 3,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 3,
               "value": 500.0,
               "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "홍준표",
-          "normalized_keyword": "홍준표",
-          "first_seen_order": 4,
+          "keyword": "inter miami vs d.c. united",
+          "normalized_keyword": "inter miami vs d.c. united",
+          "first_seen_order": 2,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 4,
-              "value": 100.0,
-              "value_label": "100+"
+              "rank": 2,
+              "value": 500.0,
+              "value_label": "500+"
             }
           }
         },
         {
-          "keyword": "madrid vs villarreal",
-          "normalized_keyword": "madrid vs villarreal",
-          "first_seen_order": 5,
+          "keyword": "신진서",
+          "normalized_keyword": "신진서",
+          "first_seen_order": 3,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 4,
+              "value": 200.0,
+              "value_label": "200+"
+            }
+          }
+        },
+        {
+          "keyword": "나루토",
+          "normalized_keyword": "나루토",
+          "first_seen_order": 4,
           "source_count": 1,
           "sources": {
             "google_trends": {
@@ -208,9 +184,9 @@
           }
         },
         {
-          "keyword": "일본 엔",
-          "normalized_keyword": "일본 엔",
-          "first_seen_order": 6,
+          "keyword": "서장훈의 이웃집 백만장자",
+          "normalized_keyword": "서장훈의 이웃집 백만장자",
+          "first_seen_order": 5,
           "source_count": 1,
           "sources": {
             "google_trends": {
@@ -221,54 +197,54 @@
           }
         },
         {
-          "keyword": "real madrid",
-          "normalized_keyword": "real madrid",
-          "first_seen_order": 7,
+          "keyword": "월스트리트 저널",
+          "normalized_keyword": "월스트리트 저널",
+          "first_seen_order": 6,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 7,
-              "value": 100.0,
-              "value_label": "100+"
-            }
-          }
-        },
-        {
-          "keyword": "이언주",
-          "normalized_keyword": "이언주",
-          "first_seen_order": 8,
-          "source_count": 1,
-          "sources": {
-            "google_trends": {
-              "rank": 8,
               "value": 200.0,
               "value_label": "200+"
             }
           }
         },
         {
-          "keyword": "공직",
-          "normalized_keyword": "공직",
-          "first_seen_order": 9,
+          "keyword": "원자력",
+          "normalized_keyword": "원자력",
+          "first_seen_order": 7,
           "source_count": 1,
           "sources": {
             "google_trends": {
-              "rank": 9,
+              "rank": 8,
               "value": 100.0,
               "value_label": "100+"
             }
           }
         },
         {
-          "keyword": "민도희",
-          "normalized_keyword": "민도희",
-          "first_seen_order": 10,
+          "keyword": "사관학교",
+          "normalized_keyword": "사관학교",
+          "first_seen_order": 8,
+          "source_count": 1,
+          "sources": {
+            "google_trends": {
+              "rank": 9,
+              "value": 200.0,
+              "value_label": "200+"
+            }
+          }
+        },
+        {
+          "keyword": "mls",
+          "normalized_keyword": "mls",
+          "first_seen_order": 9,
           "source_count": 1,
           "sources": {
             "google_trends": {
               "rank": 10,
-              "value": 1000.0,
-              "value_label": "1000+"
+              "value": 200.0,
+              "value_label": "200+"
             }
           }
         }
